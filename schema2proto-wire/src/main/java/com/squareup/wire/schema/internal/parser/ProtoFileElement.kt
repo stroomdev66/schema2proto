@@ -32,6 +32,7 @@ data class ProtoFileElement(
 ) {
     fun toSchema() = buildString {
         append("// ")
+        append("event_logging/v4/")
         append(location)
         append('\n')
 
@@ -39,7 +40,8 @@ data class ProtoFileElement(
             append("syntax = \"$syntax\";\n")
         }
         if (packageName != null) {
-            append("package $packageName;\n")
+            append("package event_logging.v4;\n")
+//            append("package $packageName;\n")
         }
         if (imports.isNotEmpty() || publicImports.isNotEmpty()) {
             append('\n')

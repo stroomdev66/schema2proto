@@ -82,7 +82,7 @@ import no.entur.schema2proto.compatibility.ProtolockBackwardsCompatibilityChecke
 
 public class ProtoSerializer {
 
-	private static final String VALIDATION_PROTO_IMPORT = "validate/validate.proto";
+	private static final String VALIDATION_PROTO_IMPORT = "buf/validate/validate.proto";
 	private static final String XSDOPTIONS_PROTO_IMPORT = "xsd/xsd.proto";
 	private static final String UNDERSCORE = "_";
 	private static final String DASH = "-";
@@ -168,8 +168,8 @@ public class ProtoSerializer {
         // Rename fields
         translateFieldNames(packageToProtoFileMap);
 
-        // Combine field.packageName and field.Typename to field.packageName.typeName
-        moveFieldPackageNameToFieldTypeName(packageToProtoFileMap);
+//        // Combine field.packageName and field.Typename to field.packageName.typeName
+//        moveFieldPackageNameToFieldTypeName(packageToProtoFileMap);
 
         // Add leading '.' to field.elementType if applicable
         addLeadingPeriodToElementType(packageToProtoFileMap);
@@ -412,7 +412,9 @@ public class ProtoSerializer {
 
     @NotNull
     private String getPathFromPackageName(String packageName) {
-        return packageName.replace('.', '/');
+        return "event_logging/v4";
+
+//        return packageName.replace('.', '/');
     }
 
     private String buildFullyQualifiedTypeName(String packageName, Type type) {

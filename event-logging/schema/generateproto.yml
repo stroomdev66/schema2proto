@@ -2,7 +2,7 @@
 #outputFilename: event-logging-schema-v3.proto
 
 # Target directory to write resulting proto files. Proto files are placed in sub folders according to their package name
-outputDirectory: /home/stroomdev66/work/schema2proto/event-logging/proto
+outputDirectory: /home/stroomdev66/work/schema2proto2/event-logging/src/proto
 
 
 

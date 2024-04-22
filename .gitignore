@@ -27,3 +27,4 @@ dependency-reduced-pom.xml
 .idea/
 local_config/
 target
+/event-logging/src/proto/google/protobuf/

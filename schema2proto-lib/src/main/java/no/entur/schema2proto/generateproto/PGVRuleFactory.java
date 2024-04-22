@@ -42,7 +42,7 @@ import com.sun.xml.xsom.XSSimpleType;
 
 public class PGVRuleFactory {
 
-	public static final String VALIDATE_RULES_NAME = "validate.rules";
+	public static final String VALIDATE_RULES_NAME = "buf.validate.field";
 	private static final String RULE_STRING_PATTERN = "string.pattern";
 	private final SchemaParser schemaParser;
 	private Schema2ProtoConfiguration configuration;
@@ -70,14 +70,14 @@ public class PGVRuleFactory {
 					: 1; // Default
 
 			if (minOccurs == 1 && maxOccurs == 1) {
-				validationRules.add(new OptionElement("(validate.rules).message.required", OptionElement.Kind.BOOLEAN, true, false));
+				validationRules.add(new OptionElement("(buf.validate.field).required", OptionElement.Kind.BOOLEAN, true, false));
 			} else if (parentParticle.isRepeated()) {
 				Map<String, Integer> minMaxParams = new HashMap<>();
 				minMaxParams.put("min_items", minOccurs);
 				if (maxOccurs > 1) {
 					minMaxParams.put("max_items", maxOccurs);
 				}
-				validationRules.add(new OptionElement("(validate.rules).repeated", OptionElement.Kind.MAP, minMaxParams, false));
+				validationRules.add(new OptionElement("(buf.validate.field).repeated", OptionElement.Kind.MAP, minMaxParams, false));
 			}
 
 		}
