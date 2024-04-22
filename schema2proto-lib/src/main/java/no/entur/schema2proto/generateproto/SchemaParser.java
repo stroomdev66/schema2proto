@@ -340,6 +340,17 @@ public class SchemaParser implements ErrorHandler {
 								fieldOptions, true);
 						addField(messageType, field);
 					} else {
+
+
+
+
+						List<OptionElement> typeRule = ruleFactory.getValidationRule(type.asSimpleType());
+						typeRule.addAll(fieldOptions.getOptionElements());
+						fieldOptions = new Options(Options.FIELD_OPTIONS, typeRule);
+
+
+
+
 						String typeName = findFieldType(type);
 						Field field = new Field(basicTypes.contains(typeName) ? null : packageName, fieldLocation, label, currElementDecl.getName(), fieldDoc,
 								messageType.getNextFieldNum(), typeName, fieldOptions, true);
