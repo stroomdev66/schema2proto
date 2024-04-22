@@ -64,7 +64,7 @@ public class PGVRuleFactory {
 	public List<OptionElement> getValidationRule(XSParticle parentParticle) {
 		List<OptionElement> validationRules = new ArrayList<>();
 
-		if (false && configuration.includeValidationRules) { // TODO SKIP FOR NOW AS RULES ARE NOT COMPILING
+		if (configuration.includeValidationRules) { // TODO SKIP FOR NOW AS RULES ARE NOT COMPILING
 			int minOccurs = parentParticle.getMinOccurs() != null ? parentParticle.getMinOccurs().intValue() : 0; // Default
 			int maxOccurs = parentParticle.getMaxOccurs() != null && parentParticle.getMaxOccurs().intValue() != 0 ? parentParticle.getMaxOccurs().intValue()
 					: 1; // Default
@@ -141,7 +141,14 @@ public class PGVRuleFactory {
 		for (XSFacet facet : declaredFacets) {
 			switch (facet.getName()) {
 			case XSFacet.FACET_PATTERN:
-				parameters.put("pattern", StringUtils.replace(facet.getValue().value, "\\", "\\\\")); // Add escaping of backslash
+				String newPattern = facet.getValue().value;
+				newPattern = StringUtils.replace(newPattern, "\\", "\\\\");
+				newPattern = "(" + newPattern + ")";
+				final Object currentPattern = parameters.get("pattern");
+				if (currentPattern != null) {
+					newPattern = currentPattern + "|" + newPattern;
+				}
+				parameters.put("pattern", newPattern); // Add escaping of backslash
 				break;
 			case XSFacet.FACET_MINLENGTH:
 				parameters.put("min_len", Integer.parseInt(facet.getValue().value));
