@@ -1,0 +1,133 @@
+// event_logging_event_detail_complex_type.proto at 0:0
+syntax = "proto3";
+package event_logging.event_detail_complex_type;
+
+import "event_logging/alert_complex_type/event_logging_alert_complex_type.proto";
+import "event_logging/approval_complex_type/event_logging_approval_complex_type.proto";
+import "event_logging/authenticate_complex_type/event_logging_authenticate_complex_type.proto";
+import "event_logging/authorise_complex_type/event_logging_authorise_complex_type.proto";
+import "event_logging/copy_complex_type/event_logging_copy_complex_type.proto";
+import "event_logging/create_complex_type/event_logging_create_complex_type.proto";
+import "event_logging/data_complex_type/event_logging_data_complex_type.proto";
+import "event_logging/delete_complex_type/event_logging_delete_complex_type.proto";
+import "event_logging/export_complex_type/event_logging_export_complex_type.proto";
+import "event_logging/import_complex_type/event_logging_import_complex_type.proto";
+import "event_logging/install_complex_type/event_logging_install_complex_type.proto";
+import "event_logging/move_complex_type/event_logging_move_complex_type.proto";
+import "event_logging/network_event_action_complex_type/event_logging_network_event_action_complex_type.proto";
+import "event_logging/print_complex_type/event_logging_print_complex_type.proto";
+import "event_logging/process_complex_type/event_logging_process_complex_type.proto";
+import "event_logging/purpose_complex_type/event_logging_purpose_complex_type.proto";
+import "event_logging/receive_complex_type/event_logging_receive_complex_type.proto";
+import "event_logging/search_complex_type/event_logging_search_complex_type.proto";
+import "event_logging/send_complex_type/event_logging_send_complex_type.proto";
+import "event_logging/uninstall_complex_type/event_logging_uninstall_complex_type.proto";
+import "event_logging/update_complex_type/event_logging_update_complex_type.proto";
+import "event_logging/view_complex_type/event_logging_view_complex_type.proto";
+import "validate/validate.proto";
+
+// This type describes the details of what happened in the event: the type of the event, why it happened and the event action.
+message EventDetailComplexType {
+  // A name/code/ID to uniquely identify the logical event type within the service providing the events. E.g. a Windows eventId (i.e. representing 'Failed logon', 'Change password attempt', etc.) or for application logging: SaveRecord, ViewUserRecord, ViewSearchResults, etc. The granularity will depend on the application. Typically, the number of unique TypeIds will be in the 10s. Note, the values of the TypeId are not meant to be globally consistent, they will only be relevant within that service providing the events.
+  string type_id = 1 [
+    (validate.rules).message.required = true
+  ];
+  // Some human-readable descriptive text for the event type.
+  string description = 2;
+  // The purpose/justification assigned to this event for user actions that are required to be justified for reasons of corporate policy, e.g. transferring data to removable media, viewing personnel records or making a high value payment.
+  event_logging.purpose_complex_type.PurposeComplexType purpose = 3;
+  // Used to record authentication events such as logon and logoff. Also used for recording authentication by physical access controls, e.g. doors/turnstiles. All authentication events that originate from a client device should record details of the client device in the event source.
+  event_logging.authenticate_complex_type.AuthenticateComplexType authenticate = 4 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to account management such as adding and removing user and system accounts.
+  event_logging.authorise_complex_type.AuthoriseComplexType authorise = 5 [
+    (validate.rules).message.required = true
+  ];
+  // Any events related to searching for data should use this element.
+  event_logging.search_complex_type.SearchComplexType search = 6 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to copying data, files, documents, etc. should use this element.
+  event_logging.copy_complex_type.CopyComplexType copy = 7 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to moving data should use this element.
+  event_logging.move_complex_type.MoveComplexType move = 8 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to creating data should use this element.
+  event_logging.create_complex_type.CreateComplexType create = 9 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to viewing data should use this element. Note that viewing data is subtly different from reading data. This event is to be used when data is displayed to an end user and not for data read by an application.
+  event_logging.view_complex_type.ViewComplexType view = 10 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to importing data should use this element. An import could include any batch insert of data from an external source or uploading a file.
+  event_logging.import_complex_type.ImportComplexType import_field = 11 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to exporting data should use this element. An export could include activities such as downloading data from an application or generating a report.
+  event_logging.export_complex_type.ExportComplexType export = 12 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to updating data should use this element.
+  event_logging.update_complex_type.UpdateComplexType update = 13 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to deleting data should use this element.
+  event_logging.delete_complex_type.DeleteComplexType delete = 14 [
+    (validate.rules).message.required = true
+  ];
+  // Whenever processes such as applications or services are started, stopped etc., this should be recorded in this element. It also covers the running of batch processes or jobs.
+  event_logging.process_complex_type.ProcessComplexType process = 15 [
+    (validate.rules).message.required = true
+  ];
+  // All events related to printing should use this element.
+  event_logging.print_complex_type.PrintComplexType print = 16 [
+    (validate.rules).message.required = true
+  ];
+  // Details about installation of either hardware or software.
+  event_logging.install_complex_type.InstallComplexType install = 17 [
+    (validate.rules).message.required = true
+  ];
+  // Details about removal of either hardware or software.
+  event_logging.uninstall_complex_type.UninstallComplexType uninstall = 18 [
+    (validate.rules).message.required = true
+  ];
+  // Any events related to network traffic, filtering or access should be recorded using this element.
+  event_logging.network_event_action_complex_type.NetworkEventActionComplexType network = 19 [
+    (validate.rules).message.required = true
+  ];
+  // An alert event according to the system producing the event, e.g. an event raised when an anti-malware system finds malware.
+  event_logging.alert_complex_type.AlertComplexType alert = 20 [
+    (validate.rules).message.required = true
+  ];
+  // Used for send events that are at a higher level than a network/send event, e.g. sending an email
+  event_logging.send_complex_type.SendComplexType send = 21 [
+    (validate.rules).message.required = true
+  ];
+  // Used for receive events that are at a higher level than a network/receive event, e.g. receiving an email
+  event_logging.receive_complex_type.ReceiveComplexType receive = 22 [
+    (validate.rules).message.required = true
+  ];
+  // Any events relating to the action of approving/accepting or rejecting something, e.g. an approval step in a workflow, accepting a license agreement, or acceptable use policy. The event may relate to one user approving the work/action of another user or a single user accepting something.
+  event_logging.approval_complex_type.ApprovalComplexType approval = 23 [
+    (validate.rules).message.required = true
+  ];
+  // This element should be used were the type of the event cannot be described by any of the other event actions, or the event type is unknown.
+  UnknownType unknown = 24 [
+    (validate.rules).message.required = true
+  ];
+
+  // This type should be used were the type of the event cannot be described by any of the other event actions, or the event type is unknown.
+  message UnknownType {
+    // Any other event data that does not fit into a schema element but may be useful for the purpose of audit.
+    repeated event_logging.data_complex_type.DataComplexType data = 1 [
+      (validate.rules).repeated = {
+        min_items: 0
+      }
+    ];
+  }
+}

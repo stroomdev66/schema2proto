@@ -1,0 +1,139 @@
+// event_logging_authorise_complex_type.proto at 0:0
+syntax = "proto3";
+package event_logging.authorise_complex_type;
+
+import "event_logging/authorisation_simple_type/event_logging_authorisation_simple_type.proto";
+import "event_logging/banner_complex_type/event_logging_banner_complex_type.proto";
+import "event_logging/chat_complex_type/event_logging_chat_complex_type.proto";
+import "event_logging/configuration_complex_type/event_logging_configuration_complex_type.proto";
+import "event_logging/data_complex_type/event_logging_data_complex_type.proto";
+import "event_logging/document_complex_type/event_logging_document_complex_type.proto";
+import "event_logging/email_complex_type/event_logging_email_complex_type.proto";
+import "event_logging/file_complex_type/event_logging_file_complex_type.proto";
+import "event_logging/folder_complex_type/event_logging_folder_complex_type.proto";
+import "event_logging/group_chat_complex_type/event_logging_group_chat_complex_type.proto";
+import "event_logging/multi_object_complex_type/event_logging_multi_object_complex_type.proto";
+import "event_logging/object_complex_type/event_logging_object_complex_type.proto";
+import "event_logging/outcome_complex_type/event_logging_outcome_complex_type.proto";
+import "event_logging/resource_complex_type/event_logging_resource_complex_type.proto";
+import "event_logging/shortcut_complex_type/event_logging_shortcut_complex_type.proto";
+import "event_logging/user_complex_type/event_logging_user_complex_type.proto";
+import "event_logging/virtual_session_complex_type/event_logging_virtual_session_complex_type.proto";
+import "event_logging/voip_complex_type/event_logging_voip_complex_type.proto";
+import "validate/validate.proto";
+
+// Describes event actions related to account management such as adding and removing user and system accounts. It can also describe event actions related to the request for authorisation, e.g. when a user is checked against a set of permissions for the data/entities they are trying to access.
+message AuthoriseComplexType {
+  repeated ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [
+    (validate.rules).repeated = {
+      min_items: 1
+    }
+  ];
+  // The type of the event action, e.g. a modification to authorisation rules/groups or the request to be authorised.
+  event_logging.authorisation_simple_type.AuthorisationSimpleType action = 11;
+  // A list of roles or permissions that have been added to an object.
+  AddGroupsType add_groups = 12;
+  // A list of roles or permissions that have been removed from an object.
+  RemoveGroupsType remove_groups = 13;
+  // Used to determine if the action was successful. If omitted it is assumed that the event was successful and was permitted.
+  event_logging.outcome_complex_type.OutcomeComplexType outcome = 14;
+  // Any other event data that does not fit into a schema element but may be useful for the purpose of audit.
+  repeated event_logging.data_complex_type.DataComplexType data = 15 [
+    (validate.rules).repeated = {
+      min_items: 0
+    }
+  ];
+
+  message ChoiceWrapper_AuthoriseComplexType {
+    // Describes the association or link between two or more entities, e.g. the link between two web resources.
+    event_logging.multi_object_complex_type.AssociationComplexType association = 1 [
+      (validate.rules).message.required = true
+    ];
+    // Describes a banner or message presented to a user, e.g. an acceptable use policy message shown on system login.
+    event_logging.banner_complex_type.BannerComplexType banner = 2 [
+      (validate.rules).message.required = true
+    ];
+    // Describes part of a chat session between a user and one or more other users, e.g. in an instant messaging application.
+    event_logging.chat_complex_type.ChatComplexType chat = 3 [
+      (validate.rules).message.required = true
+    ];
+    // Describes the configuration of entity, e.g. it can be used to describe the update to the configuration of a network device.
+    event_logging.configuration_complex_type.ConfigurationComplexType configuration = 4 [
+      (validate.rules).message.required = true
+    ];
+    // Structure used to describe a criteria used to filter or limit the scope of something, e.g. in a search, view, update or delete event.
+    event_logging.multi_object_complex_type.CriteriaComplexType criteria = 5 [
+      (validate.rules).message.required = true
+    ];
+    // Describes a document that may be stored electronically or in hard-copy form.
+    event_logging.document_complex_type.DocumentComplexType document = 6 [
+      (validate.rules).message.required = true
+    ];
+    // Describes an email sent from one user to one or more recipients.
+    event_logging.email_complex_type.EmailComplexType email = 7 [
+      (validate.rules).message.required = true
+    ];
+    // A file object, e.g. a text file on file system
+    event_logging.file_complex_type.FileComplexType file = 8 [
+      (validate.rules).message.required = true
+    ];
+    // A folder object, e.g. a directory or folder on file system.
+    event_logging.folder_complex_type.FolderComplexType folder = 9 [
+      (validate.rules).message.required = true
+    ];
+    // A group entity, e.g. a user group, an access control group or a named group of some kind that ties together a collection of entities/objects of some kind.
+    event_logging.user_complex_type.GroupComplexType group = 10 [
+      (validate.rules).message.required = true
+    ];
+    // Describes the details of a chat event within a chat room or group.
+    event_logging.group_chat_complex_type.GroupChatComplexType group_chat = 11 [
+      (validate.rules).message.required = true
+    ];
+    // A generic object or entity that cannot be described using any of the other more specific object types.
+    event_logging.object_complex_type.ObjectComplexType object = 12 [
+      (validate.rules).message.required = true
+    ];
+    // A set of search results from a query where the results are viewed or interacted with in a separate event to the execution of the query. E.g. for long-running queries where the results are stored for later viewing/processing. The Search schema action should be used to describe the event for the execution of the search. Query/Id or Query/Name can be used to associate the results event with the query event.
+    event_logging.multi_object_complex_type.SearchResultsComplexType search_results = 13 [
+      (validate.rules).message.required = true
+    ];
+    // A shortcut to another file/object, such as a Windows Shortcut or linux symbolic link.
+    event_logging.shortcut_complex_type.ShortcutComplexType shortcut = 14 [
+      (validate.rules).message.required = true
+    ];
+    // A user entity which may represent a person or some form of non-human processing user.
+    event_logging.user_complex_type.UserComplexType user = 15 [
+      (validate.rules).message.required = true
+    ];
+    // This is used to describe the session used when viewing another user's session, e.g. screen sharing or remote assistance type activities.
+    event_logging.virtual_session_complex_type.VirtualSessionComplexType virtual_session = 16 [
+      (validate.rules).message.required = true
+    ];
+    // Describes a Voice Over Internet Protocol call.
+    event_logging.voip_complex_type.VoipComplexType voip = 17 [
+      (validate.rules).message.required = true
+    ];
+    // This is used to describe a resource within a website or web application, such as an HTML file, image file or script, along with the details of that resource such as size or response codes. It can represent both successful and failed access to the resource object.
+    event_logging.resource_complex_type.ResourceComplexType resource = 18 [
+      (validate.rules).message.required = true
+    ];
+  }
+  // A list of roles or permissions that have been added to an object.
+  message AddGroupsType {
+    // A role or permission that has been added to an object.
+    repeated event_logging.user_complex_type.GroupComplexType group = 1 [
+      (validate.rules).repeated = {
+        min_items: 0
+      }
+    ];
+  }
+  // A list of roles or permissions that have been removed from an object.
+  message RemoveGroupsType {
+    // A role or permission that has been removed from an object.
+    repeated event_logging.user_complex_type.GroupComplexType group = 1 [
+      (validate.rules).repeated = {
+        min_items: 0
+      }
+    ];
+  }
+}

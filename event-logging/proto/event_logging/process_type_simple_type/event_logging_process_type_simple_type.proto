@@ -1,0 +1,14 @@
+// event_logging_process_type_simple_type.proto at 0:0
+syntax = "proto3";
+package event_logging.process_type_simple_type;
+
+import "validate/validate.proto";
+
+// The types of a process event, e.g. a background process running within an application.
+enum ProcessTypeSimpleType {
+  // Default
+  PROCESS_TYPE_SIMPLE_TYPE_UNSPECIFIED = 0;
+  PROCESS_TYPE_SIMPLE_TYPE_OS = 1;
+  PROCESS_TYPE_SIMPLE_TYPE_SERVICE = 2;
+  PROCESS_TYPE_SIMPLE_TYPE_APPLICATION = 3;
+}

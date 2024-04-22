@@ -1,0 +1,55 @@
+// event_logging_approval_complex_type.proto at 0:0
+syntax = "proto3";
+package event_logging.approval_complex_type;
+
+import "event_logging/approval_action_simple_type/event_logging_approval_action_simple_type.proto";
+import "event_logging/data_complex_type/event_logging_data_complex_type.proto";
+import "event_logging/multi_object_complex_type/event_logging_multi_object_complex_type.proto";
+import "event_logging/outcome_complex_type/event_logging_outcome_complex_type.proto";
+import "event_logging/user_complex_type/event_logging_user_complex_type.proto";
+import "validate/validate.proto";
+
+// This type describes an approval (or rejection) event in a workflow, e.g a workflow where a more privileged user is required to approve the work of another user.
+message ApprovalComplexType {
+  // The action that the approval event is capturing, e.g. Approve, Reject, etc.
+  event_logging.approval_action_simple_type.ApprovalActionSimpleType action = 1 [
+    (validate.rules).message.required = true
+  ];
+  // An identifier associated with the approval step/process.
+  string id = 2;
+  // The object that this approval step (or request for approval) relates to, e.g. the document being approved.
+  event_logging.multi_object_complex_type.MultiObjectComplexType subject = 3;
+  // The user(s) that requested the approval, e.g. jbloggs requesting approval from a manager for his finance report.
+  RequestorsType requestors = 4;
+  // The user(s) that are providing the approval, e.g. a user requesting approval from manager fsmith for his finance report.
+  ApproversType approvers = 5;
+  // The reason for the approval/rejection/request, e.g. why the approval was rejected.
+  string reason = 6;
+  // Used to determine if the action was successful. If omitted it is assumed that the event was successful and was permitted.
+  event_logging.outcome_complex_type.OutcomeComplexType outcome = 7;
+  // Any other event data that does not fit into a schema element but may be useful for the purpose of audit.
+  repeated event_logging.data_complex_type.DataComplexType data = 8 [
+    (validate.rules).repeated = {
+      min_items: 0
+    }
+  ];
+
+  // The user(s) that requested the approval, e.g. jbloggs requesting approval from a manager for his finance report.
+  message RequestorsType {
+    // A user that requested the approval, e.g. jbloggs requesting approval from a manager for his finance report.
+    repeated event_logging.user_complex_type.UserComplexType requestor = 1 [
+      (validate.rules).repeated = {
+        min_items: 1
+      }
+    ];
+  }
+  // The user(s) that are providing the approval, e.g. a user requesting approval from manager fsmith for his finance report.
+  message ApproversType {
+    // The user that is providing the approval, e.g. a user requesting approval from manager fsmith for his finance report.
+    repeated event_logging.user_complex_type.UserComplexType approver = 1 [
+      (validate.rules).repeated = {
+        min_items: 1
+      }
+    ];
+  }
+}

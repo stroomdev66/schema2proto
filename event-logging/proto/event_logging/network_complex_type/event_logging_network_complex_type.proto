@@ -1,0 +1,23 @@
+// event_logging_network_complex_type.proto at 0:0
+syntax = "proto3";
+package event_logging.network_complex_type;
+
+import "event_logging/multi_object_complex_type/event_logging_multi_object_complex_type.proto";
+import "event_logging/network_location_complex_type/event_logging_network_location_complex_type.proto";
+import "validate/validate.proto";
+
+// A type to describe part of a computer network or some activity on a network.
+message NetworkComplexType {
+  // The source device that is attempting the network action.
+  event_logging.network_location_complex_type.NetworkLocationComplexType source = 1 [
+    (validate.rules).message.required = true
+  ];
+  // The destination device for the network action.
+  event_logging.network_location_complex_type.NetworkLocationComplexType destination = 2;
+  // The name of the process responsible for the network action.
+  string process_name = 3;
+  // If the network action is related to message transfer from one place to another then this element describes the message.
+  event_logging.multi_object_complex_type.MultiObjectComplexType payload = 4;
+  // The network boundary filter rule that was fired to generate this event.
+  string rule = 5;
+}

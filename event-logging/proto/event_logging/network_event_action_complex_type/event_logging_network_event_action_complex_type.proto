@@ -1,0 +1,46 @@
+// event_logging_network_event_action_complex_type.proto at 0:0
+syntax = "proto3";
+package event_logging.network_event_action_complex_type;
+
+import "event_logging/network_outcome_complex_type/event_logging_network_outcome_complex_type.proto";
+import "validate/validate.proto";
+
+// Describes an event involving some form of activity on a computer network.
+message NetworkEventActionComplexType {
+  // The action of a server binding a network socket to a port and IP address.
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType bind = 1 [
+    (validate.rules).message.required = true
+  ];
+  // The action of a client system establishing a connection with a server.
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType connect = 2 [
+    (validate.rules).message.required = true
+  ];
+  // The action of opening an unnamed socket that is bound to an address.
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType open = 3 [
+    (validate.rules).message.required = true
+  ];
+  // The action of closing an open socket or connection.
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType close = 4 [
+    (validate.rules).message.required = true
+  ];
+  // The action of sending data on a socket.
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType send = 5 [
+    (validate.rules).message.required = true
+  ];
+  // The action of receiving data on a socket.
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType receive = 6 [
+    (validate.rules).message.required = true
+  ];
+  // The action of making a socket listen for connections.
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType listen = 7 [
+    (validate.rules).message.required = true
+  ];
+  // The action of network traffic being permitted by an Access Control List (ACL).
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType permit = 8 [
+    (validate.rules).message.required = true
+  ];
+  // The action of network traffic being denied by an Access Control List (ACL).
+  event_logging.network_outcome_complex_type.NetworkOutcomeComplexType deny = 9 [
+    (validate.rules).message.required = true
+  ];
+}
