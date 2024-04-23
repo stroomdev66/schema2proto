@@ -8,6 +8,7 @@ import "event_logging/v4/document_complex_type.proto";
 import "event_logging/v4/outcome_complex_type.proto";
 import "event_logging/v4/print_action_simple_type.proto";
 import "event_logging/v4/print_settings_orientation_simple_type.proto";
+import "google/protobuf/timestamp.proto";
 import "buf/validate/validate.proto";
 
 // Describes an event relating to a printer, e.g. printing a document.
@@ -48,7 +49,7 @@ message PrintComplexType {
       (buf.validate.field).uint32.gte = 0
     ];
     // The time that the print job was submitted.
-    uint64 submitted = 4;
+    google.protobuf.Timestamp submitted = 4;
   }
   // The printer settings that are to be used for the print job.
   message PrintSettingsType {

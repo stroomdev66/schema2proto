@@ -350,8 +350,13 @@ public class SchemaParser implements ErrorHandler {
 
 
 
-
 						String typeName = findFieldType(type);
+						if (packageName != null && packageName.equals("date_time_simple_type")) {
+							packageName = "google.protobuf";
+							typeName = "google.protobuf.Timestamp";
+						}
+
+
 						Field field = new Field(basicTypes.contains(typeName) ? null : packageName, fieldLocation, label, currElementDecl.getName(), fieldDoc,
 								messageType.getNextFieldNum(), typeName, fieldOptions, true);
 						addField(messageType, field);

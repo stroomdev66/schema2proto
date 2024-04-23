@@ -29,15 +29,16 @@ inheritanceToComposition: false
 #  java_package: event.logging
 #  java_multiple_files: true
 
-## Any extra imports added to each proto file. Must be used if referring to external types
-#customImports:
-#  - google/protobuf/timestamp.proto
+# Any extra imports added to each proto file. Must be used if referring to external types
+customImports:
+  - google/protobuf/timestamp.proto
 #  - google/protobuf/duration.proto
 #  - google/protobuf/any.proto
 #
-## Any extra import locations to use when the linker is trying to validate the generated proto files.
-## Used in conjunction with customImports
-#customImportLocations:
+# Any extra import locations to use when the linker is trying to validate the generated proto files.
+# Used in conjunction with customImports
+customImportLocations:
+  - /home/stroomdev66/work/schema2proto2/event-logging/src/proto
 #  - pathToRootFolder1OfProtobufImport
 #  - pathToRootFolder2OfProtobufImport
 

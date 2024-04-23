@@ -892,7 +892,7 @@ public class ProtoSerializer {
             String packageName = StringUtils.trimToNull(field.packageName());
             if (file.packageName() != null && file.packageName().equals(packageName)) {
                 field.clearPackageName();
-            } else if (packageName != null) {
+            } else if (packageName != null && !packageName.startsWith("google")) {
                 // Add import
                 ProtoFile fileToImport = packageToProtoFileMap.get(packageName);
                 if (fileToImport != null) {
