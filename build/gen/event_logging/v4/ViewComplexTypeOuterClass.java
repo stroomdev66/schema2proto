@@ -29,27 +29,27 @@ public final class ViewComplexTypeOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType> 
+    java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType> 
         getChoiceWrapperList();
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType getChoiceWrapper(int index);
+    event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType getChoiceWrapper(int index);
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     int getChoiceWrapperCount();
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder> 
+    java.util.List<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList();
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index);
 
     /**
@@ -166,8 +166,8 @@ public final class ViewComplexTypeOuterClass {
               event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.class, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.Builder.class);
     }
 
-    public interface ChoiceWrapper_ViewComplexTypeOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType)
+    public interface ChoiceWrapperViewComplexTypeOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -657,12 +657,12 @@ public final class ViewComplexTypeOuterClass {
       event_logging.v4.ResourceComplexTypeOuterClass.ResourceComplexTypeOrBuilder getResourceOrBuilder();
     }
     /**
-     * Protobuf type {@code event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType}
+     * Protobuf type {@code event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType}
      */
-    public static final class ChoiceWrapper_ViewComplexType extends
+    public static final class ChoiceWrapperViewComplexType extends
         com.google.protobuf.GeneratedMessage implements
-        // @@protoc_insertion_point(message_implements:event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType)
-        ChoiceWrapper_ViewComplexTypeOrBuilder {
+        // @@protoc_insertion_point(message_implements:event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType)
+        ChoiceWrapperViewComplexTypeOrBuilder {
     private static final long serialVersionUID = 0L;
       static {
         com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
@@ -671,26 +671,26 @@ public final class ViewComplexTypeOuterClass {
           /* minor= */ 26,
           /* patch= */ 1,
           /* suffix= */ "",
-          ChoiceWrapper_ViewComplexType.class.getName());
+          ChoiceWrapperViewComplexType.class.getName());
       }
-      // Use ChoiceWrapper_ViewComplexType.newBuilder() to construct.
-      private ChoiceWrapper_ViewComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // Use ChoiceWrapperViewComplexType.newBuilder() to construct.
+      private ChoiceWrapperViewComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
-      private ChoiceWrapper_ViewComplexType() {
+      private ChoiceWrapperViewComplexType() {
       }
 
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_descriptor;
+        return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_fieldAccessorTable
+        return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.class, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder.class);
+                event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.class, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder.class);
       }
 
       private int bitField0_;
@@ -1537,10 +1537,10 @@ public final class ViewComplexTypeOuterClass {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType)) {
+        if (!(obj instanceof event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType)) {
           return super.equals(obj);
         }
-        event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType other = (event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType) obj;
+        event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType other = (event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType) obj;
 
         if (hasAssociation() != other.hasAssociation()) return false;
         if (hasAssociation()) {
@@ -1720,44 +1720,44 @@ public final class ViewComplexTypeOuterClass {
         return hash;
       }
 
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(byte[] data)
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(java.io.InputStream input)
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1765,26 +1765,26 @@ public final class ViewComplexTypeOuterClass {
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseDelimitedFrom(java.io.InputStream input)
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input);
       }
 
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseDelimitedFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType parseFrom(
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1797,7 +1797,7 @@ public final class ViewComplexTypeOuterClass {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType prototype) {
+      public static Builder newBuilder(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -1813,26 +1813,26 @@ public final class ViewComplexTypeOuterClass {
         return builder;
       }
       /**
-       * Protobuf type {@code event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType}
+       * Protobuf type {@code event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType)
-          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder {
+          // @@protoc_insertion_point(builder_implements:event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType)
+          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_descriptor;
+          return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_fieldAccessorTable
+          return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.class, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder.class);
+                  event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.class, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder.class);
         }
 
-        // Construct using event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.newBuilder()
+        // Construct using event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -1965,17 +1965,17 @@ public final class ViewComplexTypeOuterClass {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_descriptor;
+          return event_logging.v4.ViewComplexTypeOuterClass.internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_descriptor;
         }
 
         @java.lang.Override
-        public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType getDefaultInstanceForType() {
-          return event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.getDefaultInstance();
+        public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType getDefaultInstanceForType() {
+          return event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.getDefaultInstance();
         }
 
         @java.lang.Override
-        public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType build() {
-          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType result = buildPartial();
+        public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType build() {
+          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -1983,14 +1983,14 @@ public final class ViewComplexTypeOuterClass {
         }
 
         @java.lang.Override
-        public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType buildPartial() {
-          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType result = new event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType(this);
+        public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType buildPartial() {
+          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType result = new event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType(this);
           if (bitField0_ != 0) { buildPartial0(result); }
           onBuilt();
           return result;
         }
 
-        private void buildPartial0(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType result) {
+        private void buildPartial0(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType result) {
           int from_bitField0_ = bitField0_;
           int to_bitField0_ = 0;
           if (((from_bitField0_ & 0x00000001) != 0)) {
@@ -2106,16 +2106,16 @@ public final class ViewComplexTypeOuterClass {
 
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType) {
-            return mergeFrom((event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType)other);
+          if (other instanceof event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType) {
+            return mergeFrom((event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType other) {
-          if (other == event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.getDefaultInstance()) return this;
+        public Builder mergeFrom(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType other) {
+          if (other == event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.getDefaultInstance()) return this;
           if (other.hasAssociation()) {
             mergeAssociation(other.getAssociation());
           }
@@ -5165,23 +5165,23 @@ public final class ViewComplexTypeOuterClass {
           return resourceBuilder_;
         }
 
-        // @@protoc_insertion_point(builder_scope:event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType)
+        // @@protoc_insertion_point(builder_scope:event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType)
       }
 
-      // @@protoc_insertion_point(class_scope:event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType)
-      private static final event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType)
+      private static final event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType();
+        DEFAULT_INSTANCE = new event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType();
       }
 
-      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType getDefaultInstance() {
+      public static event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<ChoiceWrapper_ViewComplexType>
-          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapper_ViewComplexType>() {
+      private static final com.google.protobuf.Parser<ChoiceWrapperViewComplexType>
+          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapperViewComplexType>() {
         @java.lang.Override
-        public ChoiceWrapper_ViewComplexType parsePartialFrom(
+        public ChoiceWrapperViewComplexType parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5200,17 +5200,17 @@ public final class ViewComplexTypeOuterClass {
         }
       };
 
-      public static com.google.protobuf.Parser<ChoiceWrapper_ViewComplexType> parser() {
+      public static com.google.protobuf.Parser<ChoiceWrapperViewComplexType> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<ChoiceWrapper_ViewComplexType> getParserForType() {
+      public com.google.protobuf.Parser<ChoiceWrapperViewComplexType> getParserForType() {
         return PARSER;
       }
 
       @java.lang.Override
-      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType getDefaultInstanceForType() {
+      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -5219,41 +5219,41 @@ public final class ViewComplexTypeOuterClass {
     private int bitField0_;
     public static final int CHOICE_WRAPPER_FIELD_NUMBER = 1;
     @SuppressWarnings("serial")
-    private java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType> choiceWrapper_;
+    private java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType> choiceWrapper_;
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType> getChoiceWrapperList() {
+    public java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType> getChoiceWrapperList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder> 
+    public java.util.List<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
     public int getChoiceWrapperCount() {
       return choiceWrapper_.size();
     }
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType getChoiceWrapper(int index) {
+    public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType getChoiceWrapper(int index) {
       return choiceWrapper_.get(index);
     }
     /**
-     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index) {
       return choiceWrapper_.get(index);
     }
@@ -5769,9 +5769,9 @@ public final class ViewComplexTypeOuterClass {
                 done = true;
                 break;
               case 10: {
-                event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType m =
+                event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType m =
                     input.readMessage(
-                        event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.parser(),
+                        event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.parser(),
                         extensionRegistry);
                 if (choiceWrapperBuilder_ == null) {
                   ensureChoiceWrapperIsMutable();
@@ -5818,22 +5818,22 @@ public final class ViewComplexTypeOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType> choiceWrapper_ =
+      private java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType> choiceWrapper_ =
         java.util.Collections.emptyList();
       private void ensureChoiceWrapperIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType>(choiceWrapper_);
+          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType>(choiceWrapper_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder> choiceWrapperBuilder_;
+          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder> choiceWrapperBuilder_;
 
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType> getChoiceWrapperList() {
+      public java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType> getChoiceWrapperList() {
         if (choiceWrapperBuilder_ == null) {
           return java.util.Collections.unmodifiableList(choiceWrapper_);
         } else {
@@ -5841,7 +5841,7 @@ public final class ViewComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public int getChoiceWrapperCount() {
         if (choiceWrapperBuilder_ == null) {
@@ -5851,9 +5851,9 @@ public final class ViewComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType getChoiceWrapper(int index) {
+      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType getChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);
         } else {
@@ -5861,10 +5861,10 @@ public final class ViewComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType value) {
+          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5878,10 +5878,10 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder builderForValue) {
+          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.set(index, builderForValue.build());
@@ -5892,9 +5892,9 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public Builder addChoiceWrapper(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType value) {
+      public Builder addChoiceWrapper(event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5908,10 +5908,10 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType value) {
+          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5925,10 +5925,10 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder builderForValue) {
+          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(builderForValue.build());
@@ -5939,10 +5939,10 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder builderForValue) {
+          int index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(index, builderForValue.build());
@@ -5953,10 +5953,10 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addAllChoiceWrapper(
-          java.lang.Iterable<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType> values) {
+          java.lang.Iterable<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType> values) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -5968,7 +5968,7 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder clearChoiceWrapper() {
         if (choiceWrapperBuilder_ == null) {
@@ -5981,7 +5981,7 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder removeChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
@@ -5994,16 +5994,16 @@ public final class ViewComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder getChoiceWrapperBuilder(
+      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder getChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder getChoiceWrapperOrBuilder(
           int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);  } else {
@@ -6011,9 +6011,9 @@ public final class ViewComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder> 
+      public java.util.List<? extends event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder> 
            getChoiceWrapperOrBuilderList() {
         if (choiceWrapperBuilder_ != null) {
           return choiceWrapperBuilder_.getMessageOrBuilderList();
@@ -6022,33 +6022,33 @@ public final class ViewComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder addChoiceWrapperBuilder() {
+      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder addChoiceWrapperBuilder() {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.getDefaultInstance());
+            event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder addChoiceWrapperBuilder(
+      public event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder addChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.getDefaultInstance());
+            index, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapper_ViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.ViewComplexType.ChoiceWrapperViewComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder> 
+      public java.util.List<event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder> 
            getChoiceWrapperBuilderList() {
         return getChoiceWrapperFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder> 
+          event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder> 
           getChoiceWrapperFieldBuilder() {
         if (choiceWrapperBuilder_ == null) {
           choiceWrapperBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexType.Builder, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapper_ViewComplexTypeOrBuilder>(
+              event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexType.Builder, event_logging.v4.ViewComplexTypeOuterClass.ViewComplexType.ChoiceWrapperViewComplexTypeOrBuilder>(
                   choiceWrapper_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -6584,10 +6584,10 @@ public final class ViewComplexTypeOuterClass {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_event_logging_v4_ViewComplexType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_descriptor;
+    internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_fieldAccessorTable;
+      internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -6618,43 +6618,43 @@ public final class ViewComplexTypeOuterClass {
       "plex_type.proto\0323event_logging/v4/virtua" +
       "l_session_complex_type.proto\032(event_logg" +
       "ing/v4/voip_complex_type.proto\032\033buf/vali" +
-      "date/validate.proto\"\213\013\n\017ViewComplexType\022" +
-      "a\n\016choice_wrapper\030\001 \003(\0132?.event_logging." +
-      "v4.ViewComplexType.ChoiceWrapper_ViewCom" +
-      "plexTypeB\010\272H\005\222\001\002\010\001\0225\n\007outcome\030\013 \001(\0132$.ev" +
-      "ent_logging.v4.OutcomeComplexType\0227\n\004dat" +
-      "a\030\014 \003(\0132!.event_logging.v4.DataComplexTy" +
-      "peB\006\272H\003\222\001\000\032\244\t\n\035ChoiceWrapper_ViewComplex" +
-      "Type\022E\n\013association\030\001 \001(\0132(.event_loggin" +
-      "g.v4.AssociationComplexTypeB\006\272H\003\310\001\001\022;\n\006b" +
-      "anner\030\002 \001(\0132#.event_logging.v4.BannerCom" +
-      "plexTypeB\006\272H\003\310\001\001\0227\n\004chat\030\003 \001(\0132!.event_l" +
-      "ogging.v4.ChatComplexTypeB\006\272H\003\310\001\001\022I\n\rcon" +
-      "figuration\030\004 \001(\0132*.event_logging.v4.Conf" +
-      "igurationComplexTypeB\006\272H\003\310\001\001\022?\n\010criteria" +
-      "\030\005 \001(\0132%.event_logging.v4.CriteriaComple" +
-      "xTypeB\006\272H\003\310\001\001\022?\n\010document\030\006 \001(\0132%.event_" +
-      "logging.v4.DocumentComplexTypeB\006\272H\003\310\001\001\0229" +
-      "\n\005email\030\007 \001(\0132\".event_logging.v4.EmailCo" +
-      "mplexTypeB\006\272H\003\310\001\001\0227\n\004file\030\010 \001(\0132!.event_" +
-      "logging.v4.FileComplexTypeB\006\272H\003\310\001\001\022;\n\006fo" +
-      "lder\030\t \001(\0132#.event_logging.v4.FolderComp" +
-      "lexTypeB\006\272H\003\310\001\001\0229\n\005group\030\n \001(\0132\".event_l" +
-      "ogging.v4.GroupComplexTypeB\006\272H\003\310\001\001\022B\n\ngr" +
-      "oup_chat\030\013 \001(\0132&.event_logging.v4.GroupC" +
-      "hatComplexTypeB\006\272H\003\310\001\001\022;\n\006object\030\014 \001(\0132#" +
-      ".event_logging.v4.ObjectComplexTypeB\006\272H\003" +
-      "\310\001\001\022J\n\016search_results\030\r \001(\0132*.event_logg" +
-      "ing.v4.SearchResultsComplexTypeB\006\272H\003\310\001\001\022" +
-      "?\n\010shortcut\030\016 \001(\0132%.event_logging.v4.Sho" +
-      "rtcutComplexTypeB\006\272H\003\310\001\001\0227\n\004user\030\017 \001(\0132!" +
-      ".event_logging.v4.UserComplexTypeB\006\272H\003\310\001" +
-      "\001\022L\n\017virtual_session\030\020 \001(\0132+.event_loggi" +
-      "ng.v4.VirtualSessionComplexTypeB\006\272H\003\310\001\001\022" +
-      "7\n\004voip\030\021 \001(\0132!.event_logging.v4.VoipCom" +
-      "plexTypeB\006\272H\003\310\001\001\022?\n\010resource\030\022 \001(\0132%.eve" +
-      "nt_logging.v4.ResourceComplexTypeB\006\272H\003\310\001" +
-      "\001b\006proto3"
+      "date/validate.proto\"\211\013\n\017ViewComplexType\022" +
+      "`\n\016choice_wrapper\030\001 \003(\0132>.event_logging." +
+      "v4.ViewComplexType.ChoiceWrapperViewComp" +
+      "lexTypeB\010\272H\005\222\001\002\010\001\0225\n\007outcome\030\013 \001(\0132$.eve" +
+      "nt_logging.v4.OutcomeComplexType\0227\n\004data" +
+      "\030\014 \003(\0132!.event_logging.v4.DataComplexTyp" +
+      "eB\006\272H\003\222\001\000\032\243\t\n\034ChoiceWrapperViewComplexTy" +
+      "pe\022E\n\013association\030\001 \001(\0132(.event_logging." +
+      "v4.AssociationComplexTypeB\006\272H\003\310\001\001\022;\n\006ban" +
+      "ner\030\002 \001(\0132#.event_logging.v4.BannerCompl" +
+      "exTypeB\006\272H\003\310\001\001\0227\n\004chat\030\003 \001(\0132!.event_log" +
+      "ging.v4.ChatComplexTypeB\006\272H\003\310\001\001\022I\n\rconfi" +
+      "guration\030\004 \001(\0132*.event_logging.v4.Config" +
+      "urationComplexTypeB\006\272H\003\310\001\001\022?\n\010criteria\030\005" +
+      " \001(\0132%.event_logging.v4.CriteriaComplexT" +
+      "ypeB\006\272H\003\310\001\001\022?\n\010document\030\006 \001(\0132%.event_lo" +
+      "gging.v4.DocumentComplexTypeB\006\272H\003\310\001\001\0229\n\005" +
+      "email\030\007 \001(\0132\".event_logging.v4.EmailComp" +
+      "lexTypeB\006\272H\003\310\001\001\0227\n\004file\030\010 \001(\0132!.event_lo" +
+      "gging.v4.FileComplexTypeB\006\272H\003\310\001\001\022;\n\006fold" +
+      "er\030\t \001(\0132#.event_logging.v4.FolderComple" +
+      "xTypeB\006\272H\003\310\001\001\0229\n\005group\030\n \001(\0132\".event_log" +
+      "ging.v4.GroupComplexTypeB\006\272H\003\310\001\001\022B\n\ngrou" +
+      "p_chat\030\013 \001(\0132&.event_logging.v4.GroupCha" +
+      "tComplexTypeB\006\272H\003\310\001\001\022;\n\006object\030\014 \001(\0132#.e" +
+      "vent_logging.v4.ObjectComplexTypeB\006\272H\003\310\001" +
+      "\001\022J\n\016search_results\030\r \001(\0132*.event_loggin" +
+      "g.v4.SearchResultsComplexTypeB\006\272H\003\310\001\001\022?\n" +
+      "\010shortcut\030\016 \001(\0132%.event_logging.v4.Short" +
+      "cutComplexTypeB\006\272H\003\310\001\001\0227\n\004user\030\017 \001(\0132!.e" +
+      "vent_logging.v4.UserComplexTypeB\006\272H\003\310\001\001\022" +
+      "L\n\017virtual_session\030\020 \001(\0132+.event_logging" +
+      ".v4.VirtualSessionComplexTypeB\006\272H\003\310\001\001\0227\n" +
+      "\004voip\030\021 \001(\0132!.event_logging.v4.VoipCompl" +
+      "exTypeB\006\272H\003\310\001\001\022?\n\010resource\030\022 \001(\0132%.event" +
+      "_logging.v4.ResourceComplexTypeB\006\272H\003\310\001\001b" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6684,11 +6684,11 @@ public final class ViewComplexTypeOuterClass {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_event_logging_v4_ViewComplexType_descriptor,
         new java.lang.String[] { "ChoiceWrapper", "Outcome", "Data", });
-    internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_descriptor =
+    internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_descriptor =
       internal_static_event_logging_v4_ViewComplexType_descriptor.getNestedTypes().get(0);
-    internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_fieldAccessorTable = new
+    internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_event_logging_v4_ViewComplexType_ChoiceWrapper_ViewComplexType_descriptor,
+        internal_static_event_logging_v4_ViewComplexType_ChoiceWrapperViewComplexType_descriptor,
         new java.lang.String[] { "Association", "Banner", "Chat", "Configuration", "Criteria", "Document", "Email", "File", "Folder", "Group", "GroupChat", "Object", "SearchResults", "Shortcut", "User", "VirtualSession", "Voip", "Resource", });
     descriptor.resolveAllFeaturesImmutable();
     event_logging.v4.BannerComplexTypeOuterClass.getDescriptor();

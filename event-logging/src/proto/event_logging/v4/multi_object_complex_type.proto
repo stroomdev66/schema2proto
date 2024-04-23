@@ -228,13 +228,13 @@ message CriteriaComplexType {
 }
 // Describes a collection of objects/entities that may be of different types.
 message MultiObjectComplexType {
-  repeated ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 1
     }
   ];
 
-  message ChoiceWrapper_MultiObjectComplexType {
+  message ChoiceWrapperMultiObjectComplexType {
     // Describes the association or link between two or more entities, e.g. the link between two web resources.
     AssociationComplexType association = 1 [
       (buf.validate.field).required = true

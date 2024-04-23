@@ -32,13 +32,13 @@ message ReceiveComplexType {
 
   // The initiator(s) of the object or resource sent or received. An initiator can be a user and/or device.
   message SourceType {
-    repeated ChoiceWrapper_SourceType choice_wrapper = 1 [
+    repeated ChoiceWrapperSourceType choice_wrapper = 1 [
       (buf.validate.field).repeated = {
         min_items: 1
       }
     ];
   
-    message ChoiceWrapper_SourceType {
+    message ChoiceWrapperSourceType {
       // The user that sent the payload.
       UserComplexType user = 1 [
         (buf.validate.field).required = true
@@ -51,13 +51,13 @@ message ReceiveComplexType {
   }
   // The destination(s) of the object or resource sent or received. A destination can be a user and/or device.
   message DestinationType {
-    repeated ChoiceWrapper_DestinationType choice_wrapper = 1 [
+    repeated ChoiceWrapperDestinationType choice_wrapper = 1 [
       (buf.validate.field).repeated = {
         min_items: 1
       }
     ];
   
-    message ChoiceWrapper_DestinationType {
+    message ChoiceWrapperDestinationType {
       // The user that the payload is being sent to
       UserComplexType user = 1 [
         (buf.validate.field).required = true

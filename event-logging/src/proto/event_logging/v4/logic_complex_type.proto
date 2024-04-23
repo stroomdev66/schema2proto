@@ -7,13 +7,13 @@ import "buf/validate/validate.proto";
 
 // All of the enclosed items are to be treated as being AND together.
 message AndComplexType {
-  repeated ChoiceWrapper_AndComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperAndComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 0
     }
   ];
 
-  message ChoiceWrapper_AndComplexType {
+  message ChoiceWrapperAndComplexType {
     // Describes a field to search and what to search for using name, condition and value, e.g. Title Contains 'Fox' or Title Equals 'The Quick Brown Fox'.
     TermComplexType term = 1;
     // All of the enclosed items are to be treated as being AND'd together.
@@ -26,13 +26,13 @@ message AndComplexType {
 }
 // The enclosed structure operators and terms are negated.
 message NotComplexType {
-  repeated ChoiceWrapper_NotComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperNotComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 0
     }
   ];
 
-  message ChoiceWrapper_NotComplexType {
+  message ChoiceWrapperNotComplexType {
     // Describes a field to search and what to search for using name, condition and value, e.g. Title Contains 'Fox' or Title Equals 'The Quick Brown Fox'.
     TermComplexType term = 1;
     // All of the enclosed items are to be treated as being AND'd together.
@@ -45,13 +45,13 @@ message NotComplexType {
 }
 // All of the enclosed items are to be treated as being OR together.
 message OrComplexType {
-  repeated ChoiceWrapper_OrComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperOrComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 0
     }
   ];
 
-  message ChoiceWrapper_OrComplexType {
+  message ChoiceWrapperOrComplexType {
     // Describes a field to search and what to search for using name, condition and value, e.g. Title Contains 'Fox' or Title Equals 'The Quick Brown Fox'.
     TermComplexType term = 1;
     // All of the enclosed items are to be treated as being AND'd together.

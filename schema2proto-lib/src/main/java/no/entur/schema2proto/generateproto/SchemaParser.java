@@ -937,9 +937,9 @@ public class SchemaParser implements ErrorHandler {
 				.count();
 		String wrapperPostfix = (enclosingComplexType.isGlobal() ? enclosingComplexType.getName() : enclosingName);
 		if (numExistingWrappers == 0) {
-			return StringUtils.join(new Object[] { wrapperPrefix, StringUtils.capitalize(wrapperPostfix) }, "_");
+			return StringUtils.join(wrapperPrefix, StringUtils.capitalize(wrapperPostfix));
 		} else {
-			return StringUtils.join(new Object[] { wrapperPrefix, StringUtils.capitalize(wrapperPostfix), (numExistingWrappers + 1) }, "_");
+			return StringUtils.join(wrapperPrefix, StringUtils.capitalize(wrapperPostfix), (numExistingWrappers + 1));
 		}
 
 	}

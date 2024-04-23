@@ -23,7 +23,7 @@ import "buf/validate/validate.proto";
 
 // Describes an event action relating to deleting data, files, documents, etc.
 message DeleteComplexType {
-  repeated ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperDeleteComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 1
     }
@@ -37,7 +37,7 @@ message DeleteComplexType {
     }
   ];
 
-  message ChoiceWrapper_DeleteComplexType {
+  message ChoiceWrapperDeleteComplexType {
     // Describes the association or link between two or more entities, e.g. the link between two web resources.
     AssociationComplexType association = 1 [
       (buf.validate.field).required = true

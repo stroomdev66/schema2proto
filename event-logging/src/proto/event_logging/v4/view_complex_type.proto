@@ -23,7 +23,7 @@ import "buf/validate/validate.proto";
 
 // Describes events related to viewing data. Note that viewing data is subtly different from reading data. This event action is to be used when data is displayed to an end user and not for data read by an application.
 message ViewComplexType {
-  repeated ChoiceWrapper_ViewComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperViewComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 1
     }
@@ -37,7 +37,7 @@ message ViewComplexType {
     }
   ];
 
-  message ChoiceWrapper_ViewComplexType {
+  message ChoiceWrapperViewComplexType {
     // Describes the association or link between two or more entities, e.g. the link between two web resources.
     AssociationComplexType association = 1 [
       (buf.validate.field).required = true

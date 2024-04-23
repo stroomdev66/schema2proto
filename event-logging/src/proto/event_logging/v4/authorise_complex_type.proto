@@ -24,7 +24,7 @@ import "buf/validate/validate.proto";
 
 // Describes event actions related to account management such as adding and removing user and system accounts. It can also describe event actions related to the request for authorisation, e.g. when a user is checked against a set of permissions for the data/entities they are trying to access.
 message AuthoriseComplexType {
-  repeated ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 1
     }
@@ -48,7 +48,7 @@ message AuthoriseComplexType {
     }
   ];
 
-  message ChoiceWrapper_AuthoriseComplexType {
+  message ChoiceWrapperAuthoriseComplexType {
     // Describes the association or link between two or more entities, e.g. the link between two web resources.
     AssociationComplexType association = 1 [
       (buf.validate.field).required = true

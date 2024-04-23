@@ -29,27 +29,27 @@ public final class AuthoriseComplexTypeOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType> 
+    java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType> 
         getChoiceWrapperList();
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType getChoiceWrapper(int index);
+    event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType getChoiceWrapper(int index);
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     int getChoiceWrapperCount();
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder> 
+    java.util.List<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList();
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index);
 
     /**
@@ -240,8 +240,8 @@ public final class AuthoriseComplexTypeOuterClass {
               event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.class, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.Builder.class);
     }
 
-    public interface ChoiceWrapper_AuthoriseComplexTypeOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType)
+    public interface ChoiceWrapperAuthoriseComplexTypeOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -731,12 +731,12 @@ public final class AuthoriseComplexTypeOuterClass {
       event_logging.v4.ResourceComplexTypeOuterClass.ResourceComplexTypeOrBuilder getResourceOrBuilder();
     }
     /**
-     * Protobuf type {@code event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType}
+     * Protobuf type {@code event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType}
      */
-    public static final class ChoiceWrapper_AuthoriseComplexType extends
+    public static final class ChoiceWrapperAuthoriseComplexType extends
         com.google.protobuf.GeneratedMessage implements
-        // @@protoc_insertion_point(message_implements:event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType)
-        ChoiceWrapper_AuthoriseComplexTypeOrBuilder {
+        // @@protoc_insertion_point(message_implements:event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType)
+        ChoiceWrapperAuthoriseComplexTypeOrBuilder {
     private static final long serialVersionUID = 0L;
       static {
         com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
@@ -745,26 +745,26 @@ public final class AuthoriseComplexTypeOuterClass {
           /* minor= */ 26,
           /* patch= */ 1,
           /* suffix= */ "",
-          ChoiceWrapper_AuthoriseComplexType.class.getName());
+          ChoiceWrapperAuthoriseComplexType.class.getName());
       }
-      // Use ChoiceWrapper_AuthoriseComplexType.newBuilder() to construct.
-      private ChoiceWrapper_AuthoriseComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // Use ChoiceWrapperAuthoriseComplexType.newBuilder() to construct.
+      private ChoiceWrapperAuthoriseComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
-      private ChoiceWrapper_AuthoriseComplexType() {
+      private ChoiceWrapperAuthoriseComplexType() {
       }
 
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_descriptor;
+        return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_fieldAccessorTable
+        return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.class, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder.class);
+                event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.class, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder.class);
       }
 
       private int bitField0_;
@@ -1611,10 +1611,10 @@ public final class AuthoriseComplexTypeOuterClass {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType)) {
+        if (!(obj instanceof event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType)) {
           return super.equals(obj);
         }
-        event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType other = (event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType) obj;
+        event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType other = (event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType) obj;
 
         if (hasAssociation() != other.hasAssociation()) return false;
         if (hasAssociation()) {
@@ -1794,44 +1794,44 @@ public final class AuthoriseComplexTypeOuterClass {
         return hash;
       }
 
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(byte[] data)
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(java.io.InputStream input)
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1839,26 +1839,26 @@ public final class AuthoriseComplexTypeOuterClass {
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseDelimitedFrom(java.io.InputStream input)
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input);
       }
 
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseDelimitedFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType parseFrom(
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1871,7 +1871,7 @@ public final class AuthoriseComplexTypeOuterClass {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType prototype) {
+      public static Builder newBuilder(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -1887,26 +1887,26 @@ public final class AuthoriseComplexTypeOuterClass {
         return builder;
       }
       /**
-       * Protobuf type {@code event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType}
+       * Protobuf type {@code event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType)
-          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder {
+          // @@protoc_insertion_point(builder_implements:event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType)
+          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_descriptor;
+          return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_fieldAccessorTable
+          return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.class, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder.class);
+                  event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.class, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder.class);
         }
 
-        // Construct using event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.newBuilder()
+        // Construct using event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -2039,17 +2039,17 @@ public final class AuthoriseComplexTypeOuterClass {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_descriptor;
+          return event_logging.v4.AuthoriseComplexTypeOuterClass.internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_descriptor;
         }
 
         @java.lang.Override
-        public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType getDefaultInstanceForType() {
-          return event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.getDefaultInstance();
+        public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType getDefaultInstanceForType() {
+          return event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.getDefaultInstance();
         }
 
         @java.lang.Override
-        public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType build() {
-          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType result = buildPartial();
+        public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType build() {
+          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -2057,14 +2057,14 @@ public final class AuthoriseComplexTypeOuterClass {
         }
 
         @java.lang.Override
-        public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType buildPartial() {
-          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType result = new event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType(this);
+        public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType buildPartial() {
+          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType result = new event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType(this);
           if (bitField0_ != 0) { buildPartial0(result); }
           onBuilt();
           return result;
         }
 
-        private void buildPartial0(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType result) {
+        private void buildPartial0(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType result) {
           int from_bitField0_ = bitField0_;
           int to_bitField0_ = 0;
           if (((from_bitField0_ & 0x00000001) != 0)) {
@@ -2180,16 +2180,16 @@ public final class AuthoriseComplexTypeOuterClass {
 
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType) {
-            return mergeFrom((event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType)other);
+          if (other instanceof event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType) {
+            return mergeFrom((event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType other) {
-          if (other == event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.getDefaultInstance()) return this;
+        public Builder mergeFrom(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType other) {
+          if (other == event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.getDefaultInstance()) return this;
           if (other.hasAssociation()) {
             mergeAssociation(other.getAssociation());
           }
@@ -5239,23 +5239,23 @@ public final class AuthoriseComplexTypeOuterClass {
           return resourceBuilder_;
         }
 
-        // @@protoc_insertion_point(builder_scope:event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType)
+        // @@protoc_insertion_point(builder_scope:event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType)
       }
 
-      // @@protoc_insertion_point(class_scope:event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType)
-      private static final event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType)
+      private static final event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType();
+        DEFAULT_INSTANCE = new event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType();
       }
 
-      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType getDefaultInstance() {
+      public static event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<ChoiceWrapper_AuthoriseComplexType>
-          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapper_AuthoriseComplexType>() {
+      private static final com.google.protobuf.Parser<ChoiceWrapperAuthoriseComplexType>
+          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapperAuthoriseComplexType>() {
         @java.lang.Override
-        public ChoiceWrapper_AuthoriseComplexType parsePartialFrom(
+        public ChoiceWrapperAuthoriseComplexType parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5274,17 +5274,17 @@ public final class AuthoriseComplexTypeOuterClass {
         }
       };
 
-      public static com.google.protobuf.Parser<ChoiceWrapper_AuthoriseComplexType> parser() {
+      public static com.google.protobuf.Parser<ChoiceWrapperAuthoriseComplexType> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<ChoiceWrapper_AuthoriseComplexType> getParserForType() {
+      public com.google.protobuf.Parser<ChoiceWrapperAuthoriseComplexType> getParserForType() {
         return PARSER;
       }
 
       @java.lang.Override
-      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType getDefaultInstanceForType() {
+      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -7013,41 +7013,41 @@ public final class AuthoriseComplexTypeOuterClass {
     private int bitField0_;
     public static final int CHOICE_WRAPPER_FIELD_NUMBER = 1;
     @SuppressWarnings("serial")
-    private java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType> choiceWrapper_;
+    private java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType> choiceWrapper_;
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType> getChoiceWrapperList() {
+    public java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType> getChoiceWrapperList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder> 
+    public java.util.List<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
     public int getChoiceWrapperCount() {
       return choiceWrapper_.size();
     }
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType getChoiceWrapper(int index) {
+    public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType getChoiceWrapper(int index) {
       return choiceWrapper_.get(index);
     }
     /**
-     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index) {
       return choiceWrapper_.get(index);
     }
@@ -7744,9 +7744,9 @@ public final class AuthoriseComplexTypeOuterClass {
                 done = true;
                 break;
               case 10: {
-                event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType m =
+                event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType m =
                     input.readMessage(
-                        event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.parser(),
+                        event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.parser(),
                         extensionRegistry);
                 if (choiceWrapperBuilder_ == null) {
                   ensureChoiceWrapperIsMutable();
@@ -7812,22 +7812,22 @@ public final class AuthoriseComplexTypeOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType> choiceWrapper_ =
+      private java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType> choiceWrapper_ =
         java.util.Collections.emptyList();
       private void ensureChoiceWrapperIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType>(choiceWrapper_);
+          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType>(choiceWrapper_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder> choiceWrapperBuilder_;
+          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder> choiceWrapperBuilder_;
 
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType> getChoiceWrapperList() {
+      public java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType> getChoiceWrapperList() {
         if (choiceWrapperBuilder_ == null) {
           return java.util.Collections.unmodifiableList(choiceWrapper_);
         } else {
@@ -7835,7 +7835,7 @@ public final class AuthoriseComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public int getChoiceWrapperCount() {
         if (choiceWrapperBuilder_ == null) {
@@ -7845,9 +7845,9 @@ public final class AuthoriseComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType getChoiceWrapper(int index) {
+      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType getChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);
         } else {
@@ -7855,10 +7855,10 @@ public final class AuthoriseComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType value) {
+          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7872,10 +7872,10 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder builderForValue) {
+          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.set(index, builderForValue.build());
@@ -7886,9 +7886,9 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public Builder addChoiceWrapper(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType value) {
+      public Builder addChoiceWrapper(event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7902,10 +7902,10 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType value) {
+          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -7919,10 +7919,10 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder builderForValue) {
+          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(builderForValue.build());
@@ -7933,10 +7933,10 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder builderForValue) {
+          int index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(index, builderForValue.build());
@@ -7947,10 +7947,10 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addAllChoiceWrapper(
-          java.lang.Iterable<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType> values) {
+          java.lang.Iterable<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType> values) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -7962,7 +7962,7 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder clearChoiceWrapper() {
         if (choiceWrapperBuilder_ == null) {
@@ -7975,7 +7975,7 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder removeChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
@@ -7988,16 +7988,16 @@ public final class AuthoriseComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder getChoiceWrapperBuilder(
+      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder getChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder getChoiceWrapperOrBuilder(
           int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);  } else {
@@ -8005,9 +8005,9 @@ public final class AuthoriseComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder> 
+      public java.util.List<? extends event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder> 
            getChoiceWrapperOrBuilderList() {
         if (choiceWrapperBuilder_ != null) {
           return choiceWrapperBuilder_.getMessageOrBuilderList();
@@ -8016,33 +8016,33 @@ public final class AuthoriseComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder addChoiceWrapperBuilder() {
+      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder addChoiceWrapperBuilder() {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.getDefaultInstance());
+            event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder addChoiceWrapperBuilder(
+      public event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder addChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.getDefaultInstance());
+            index, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder> 
+      public java.util.List<event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder> 
            getChoiceWrapperBuilderList() {
         return getChoiceWrapperFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder> 
+          event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder> 
           getChoiceWrapperFieldBuilder() {
         if (choiceWrapperBuilder_ == null) {
           choiceWrapperBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexType.Builder, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapper_AuthoriseComplexTypeOrBuilder>(
+              event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexType.Builder, event_logging.v4.AuthoriseComplexTypeOuterClass.AuthoriseComplexType.ChoiceWrapperAuthoriseComplexTypeOrBuilder>(
                   choiceWrapper_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -8965,10 +8965,10 @@ public final class AuthoriseComplexTypeOuterClass {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_event_logging_v4_AuthoriseComplexType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_descriptor;
+    internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_fieldAccessorTable;
+      internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_event_logging_v4_AuthoriseComplexType_AddGroupsType_descriptor;
   private static final 
@@ -9010,53 +9010,53 @@ public final class AuthoriseComplexTypeOuterClass {
       "ing/v4/user_complex_type.proto\0323event_lo" +
       "gging/v4/virtual_session_complex_type.pr" +
       "oto\032(event_logging/v4/voip_complex_type." +
-      "proto\032\033buf/validate/validate.proto\"\231\016\n\024A" +
-      "uthoriseComplexType\022k\n\016choice_wrapper\030\001 " +
-      "\003(\0132I.event_logging.v4.AuthoriseComplexT" +
-      "ype.ChoiceWrapper_AuthoriseComplexTypeB\010" +
-      "\272H\005\222\001\002\010\001\022C\n\006action\030\013 \001(\0162).event_logging" +
-      ".v4.AuthorisationSimpleTypeB\010\272H\005\202\001\002\020\001\022H\n" +
-      "\nadd_groups\030\014 \001(\01324.event_logging.v4.Aut" +
-      "horiseComplexType.AddGroupsType\022N\n\rremov" +
-      "e_groups\030\r \001(\01327.event_logging.v4.Author" +
-      "iseComplexType.RemoveGroupsType\0225\n\007outco" +
-      "me\030\016 \001(\0132$.event_logging.v4.OutcomeCompl" +
-      "exType\0227\n\004data\030\017 \003(\0132!.event_logging.v4." +
-      "DataComplexTypeB\006\272H\003\222\001\000\032\251\t\n\"ChoiceWrappe" +
-      "r_AuthoriseComplexType\022E\n\013association\030\001 " +
-      "\001(\0132(.event_logging.v4.AssociationComple" +
-      "xTypeB\006\272H\003\310\001\001\022;\n\006banner\030\002 \001(\0132#.event_lo" +
-      "gging.v4.BannerComplexTypeB\006\272H\003\310\001\001\0227\n\004ch" +
-      "at\030\003 \001(\0132!.event_logging.v4.ChatComplexT" +
-      "ypeB\006\272H\003\310\001\001\022I\n\rconfiguration\030\004 \001(\0132*.eve" +
-      "nt_logging.v4.ConfigurationComplexTypeB\006" +
-      "\272H\003\310\001\001\022?\n\010criteria\030\005 \001(\0132%.event_logging" +
-      ".v4.CriteriaComplexTypeB\006\272H\003\310\001\001\022?\n\010docum" +
-      "ent\030\006 \001(\0132%.event_logging.v4.DocumentCom" +
-      "plexTypeB\006\272H\003\310\001\001\0229\n\005email\030\007 \001(\0132\".event_" +
-      "logging.v4.EmailComplexTypeB\006\272H\003\310\001\001\0227\n\004f" +
-      "ile\030\010 \001(\0132!.event_logging.v4.FileComplex" +
-      "TypeB\006\272H\003\310\001\001\022;\n\006folder\030\t \001(\0132#.event_log" +
-      "ging.v4.FolderComplexTypeB\006\272H\003\310\001\001\0229\n\005gro" +
-      "up\030\n \001(\0132\".event_logging.v4.GroupComplex" +
-      "TypeB\006\272H\003\310\001\001\022B\n\ngroup_chat\030\013 \001(\0132&.event" +
-      "_logging.v4.GroupChatComplexTypeB\006\272H\003\310\001\001" +
-      "\022;\n\006object\030\014 \001(\0132#.event_logging.v4.Obje" +
-      "ctComplexTypeB\006\272H\003\310\001\001\022J\n\016search_results\030" +
-      "\r \001(\0132*.event_logging.v4.SearchResultsCo" +
-      "mplexTypeB\006\272H\003\310\001\001\022?\n\010shortcut\030\016 \001(\0132%.ev" +
-      "ent_logging.v4.ShortcutComplexTypeB\006\272H\003\310" +
-      "\001\001\0227\n\004user\030\017 \001(\0132!.event_logging.v4.User" +
-      "ComplexTypeB\006\272H\003\310\001\001\022L\n\017virtual_session\030\020" +
-      " \001(\0132+.event_logging.v4.VirtualSessionCo" +
-      "mplexTypeB\006\272H\003\310\001\001\0227\n\004voip\030\021 \001(\0132!.event_" +
-      "logging.v4.VoipComplexTypeB\006\272H\003\310\001\001\022?\n\010re" +
-      "source\030\022 \001(\0132%.event_logging.v4.Resource" +
-      "ComplexTypeB\006\272H\003\310\001\001\032J\n\rAddGroupsType\0229\n\005" +
-      "group\030\001 \003(\0132\".event_logging.v4.GroupComp" +
-      "lexTypeB\006\272H\003\222\001\000\032M\n\020RemoveGroupsType\0229\n\005g" +
-      "roup\030\001 \003(\0132\".event_logging.v4.GroupCompl" +
-      "exTypeB\006\272H\003\222\001\000b\006proto3"
+      "proto\032\033buf/validate/validate.proto\"\227\016\n\024A" +
+      "uthoriseComplexType\022j\n\016choice_wrapper\030\001 " +
+      "\003(\0132H.event_logging.v4.AuthoriseComplexT" +
+      "ype.ChoiceWrapperAuthoriseComplexTypeB\010\272" +
+      "H\005\222\001\002\010\001\022C\n\006action\030\013 \001(\0162).event_logging." +
+      "v4.AuthorisationSimpleTypeB\010\272H\005\202\001\002\020\001\022H\n\n" +
+      "add_groups\030\014 \001(\01324.event_logging.v4.Auth" +
+      "oriseComplexType.AddGroupsType\022N\n\rremove" +
+      "_groups\030\r \001(\01327.event_logging.v4.Authori" +
+      "seComplexType.RemoveGroupsType\0225\n\007outcom" +
+      "e\030\016 \001(\0132$.event_logging.v4.OutcomeComple" +
+      "xType\0227\n\004data\030\017 \003(\0132!.event_logging.v4.D" +
+      "ataComplexTypeB\006\272H\003\222\001\000\032\250\t\n!ChoiceWrapper" +
+      "AuthoriseComplexType\022E\n\013association\030\001 \001(" +
+      "\0132(.event_logging.v4.AssociationComplexT" +
+      "ypeB\006\272H\003\310\001\001\022;\n\006banner\030\002 \001(\0132#.event_logg" +
+      "ing.v4.BannerComplexTypeB\006\272H\003\310\001\001\0227\n\004chat" +
+      "\030\003 \001(\0132!.event_logging.v4.ChatComplexTyp" +
+      "eB\006\272H\003\310\001\001\022I\n\rconfiguration\030\004 \001(\0132*.event" +
+      "_logging.v4.ConfigurationComplexTypeB\006\272H" +
+      "\003\310\001\001\022?\n\010criteria\030\005 \001(\0132%.event_logging.v" +
+      "4.CriteriaComplexTypeB\006\272H\003\310\001\001\022?\n\010documen" +
+      "t\030\006 \001(\0132%.event_logging.v4.DocumentCompl" +
+      "exTypeB\006\272H\003\310\001\001\0229\n\005email\030\007 \001(\0132\".event_lo" +
+      "gging.v4.EmailComplexTypeB\006\272H\003\310\001\001\0227\n\004fil" +
+      "e\030\010 \001(\0132!.event_logging.v4.FileComplexTy" +
+      "peB\006\272H\003\310\001\001\022;\n\006folder\030\t \001(\0132#.event_loggi" +
+      "ng.v4.FolderComplexTypeB\006\272H\003\310\001\001\0229\n\005group" +
+      "\030\n \001(\0132\".event_logging.v4.GroupComplexTy" +
+      "peB\006\272H\003\310\001\001\022B\n\ngroup_chat\030\013 \001(\0132&.event_l" +
+      "ogging.v4.GroupChatComplexTypeB\006\272H\003\310\001\001\022;" +
+      "\n\006object\030\014 \001(\0132#.event_logging.v4.Object" +
+      "ComplexTypeB\006\272H\003\310\001\001\022J\n\016search_results\030\r " +
+      "\001(\0132*.event_logging.v4.SearchResultsComp" +
+      "lexTypeB\006\272H\003\310\001\001\022?\n\010shortcut\030\016 \001(\0132%.even" +
+      "t_logging.v4.ShortcutComplexTypeB\006\272H\003\310\001\001" +
+      "\0227\n\004user\030\017 \001(\0132!.event_logging.v4.UserCo" +
+      "mplexTypeB\006\272H\003\310\001\001\022L\n\017virtual_session\030\020 \001" +
+      "(\0132+.event_logging.v4.VirtualSessionComp" +
+      "lexTypeB\006\272H\003\310\001\001\0227\n\004voip\030\021 \001(\0132!.event_lo" +
+      "gging.v4.VoipComplexTypeB\006\272H\003\310\001\001\022?\n\010reso" +
+      "urce\030\022 \001(\0132%.event_logging.v4.ResourceCo" +
+      "mplexTypeB\006\272H\003\310\001\001\032J\n\rAddGroupsType\0229\n\005gr" +
+      "oup\030\001 \003(\0132\".event_logging.v4.GroupComple" +
+      "xTypeB\006\272H\003\222\001\000\032M\n\020RemoveGroupsType\0229\n\005gro" +
+      "up\030\001 \003(\0132\".event_logging.v4.GroupComplex" +
+      "TypeB\006\272H\003\222\001\000b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -9087,11 +9087,11 @@ public final class AuthoriseComplexTypeOuterClass {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_event_logging_v4_AuthoriseComplexType_descriptor,
         new java.lang.String[] { "ChoiceWrapper", "Action", "AddGroups", "RemoveGroups", "Outcome", "Data", });
-    internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_descriptor =
+    internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_descriptor =
       internal_static_event_logging_v4_AuthoriseComplexType_descriptor.getNestedTypes().get(0);
-    internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_fieldAccessorTable = new
+    internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapper_AuthoriseComplexType_descriptor,
+        internal_static_event_logging_v4_AuthoriseComplexType_ChoiceWrapperAuthoriseComplexType_descriptor,
         new java.lang.String[] { "Association", "Banner", "Chat", "Configuration", "Criteria", "Document", "Email", "File", "Folder", "Group", "GroupChat", "Object", "SearchResults", "Shortcut", "User", "VirtualSession", "Voip", "Resource", });
     internal_static_event_logging_v4_AuthoriseComplexType_AddGroupsType_descriptor =
       internal_static_event_logging_v4_AuthoriseComplexType_descriptor.getNestedTypes().get(1);

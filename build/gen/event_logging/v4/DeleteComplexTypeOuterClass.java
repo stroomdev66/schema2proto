@@ -29,27 +29,27 @@ public final class DeleteComplexTypeOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType> 
+    java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType> 
         getChoiceWrapperList();
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType getChoiceWrapper(int index);
+    event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType getChoiceWrapper(int index);
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     int getChoiceWrapperCount();
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder> 
+    java.util.List<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList();
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index);
 
     /**
@@ -166,8 +166,8 @@ public final class DeleteComplexTypeOuterClass {
               event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.class, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.Builder.class);
     }
 
-    public interface ChoiceWrapper_DeleteComplexTypeOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType)
+    public interface ChoiceWrapperDeleteComplexTypeOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -657,12 +657,12 @@ public final class DeleteComplexTypeOuterClass {
       event_logging.v4.ResourceComplexTypeOuterClass.ResourceComplexTypeOrBuilder getResourceOrBuilder();
     }
     /**
-     * Protobuf type {@code event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType}
+     * Protobuf type {@code event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType}
      */
-    public static final class ChoiceWrapper_DeleteComplexType extends
+    public static final class ChoiceWrapperDeleteComplexType extends
         com.google.protobuf.GeneratedMessage implements
-        // @@protoc_insertion_point(message_implements:event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType)
-        ChoiceWrapper_DeleteComplexTypeOrBuilder {
+        // @@protoc_insertion_point(message_implements:event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType)
+        ChoiceWrapperDeleteComplexTypeOrBuilder {
     private static final long serialVersionUID = 0L;
       static {
         com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
@@ -671,26 +671,26 @@ public final class DeleteComplexTypeOuterClass {
           /* minor= */ 26,
           /* patch= */ 1,
           /* suffix= */ "",
-          ChoiceWrapper_DeleteComplexType.class.getName());
+          ChoiceWrapperDeleteComplexType.class.getName());
       }
-      // Use ChoiceWrapper_DeleteComplexType.newBuilder() to construct.
-      private ChoiceWrapper_DeleteComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // Use ChoiceWrapperDeleteComplexType.newBuilder() to construct.
+      private ChoiceWrapperDeleteComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
-      private ChoiceWrapper_DeleteComplexType() {
+      private ChoiceWrapperDeleteComplexType() {
       }
 
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_descriptor;
+        return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_fieldAccessorTable
+        return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.class, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder.class);
+                event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.class, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder.class);
       }
 
       private int bitField0_;
@@ -1537,10 +1537,10 @@ public final class DeleteComplexTypeOuterClass {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType)) {
+        if (!(obj instanceof event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType)) {
           return super.equals(obj);
         }
-        event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType other = (event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType) obj;
+        event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType other = (event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType) obj;
 
         if (hasAssociation() != other.hasAssociation()) return false;
         if (hasAssociation()) {
@@ -1720,44 +1720,44 @@ public final class DeleteComplexTypeOuterClass {
         return hash;
       }
 
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(byte[] data)
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(java.io.InputStream input)
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1765,26 +1765,26 @@ public final class DeleteComplexTypeOuterClass {
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseDelimitedFrom(java.io.InputStream input)
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input);
       }
 
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseDelimitedFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType parseFrom(
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1797,7 +1797,7 @@ public final class DeleteComplexTypeOuterClass {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType prototype) {
+      public static Builder newBuilder(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -1813,26 +1813,26 @@ public final class DeleteComplexTypeOuterClass {
         return builder;
       }
       /**
-       * Protobuf type {@code event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType}
+       * Protobuf type {@code event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType)
-          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder {
+          // @@protoc_insertion_point(builder_implements:event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType)
+          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_descriptor;
+          return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_fieldAccessorTable
+          return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.class, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder.class);
+                  event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.class, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder.class);
         }
 
-        // Construct using event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.newBuilder()
+        // Construct using event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -1965,17 +1965,17 @@ public final class DeleteComplexTypeOuterClass {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_descriptor;
+          return event_logging.v4.DeleteComplexTypeOuterClass.internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_descriptor;
         }
 
         @java.lang.Override
-        public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType getDefaultInstanceForType() {
-          return event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.getDefaultInstance();
+        public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType getDefaultInstanceForType() {
+          return event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.getDefaultInstance();
         }
 
         @java.lang.Override
-        public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType build() {
-          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType result = buildPartial();
+        public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType build() {
+          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -1983,14 +1983,14 @@ public final class DeleteComplexTypeOuterClass {
         }
 
         @java.lang.Override
-        public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType buildPartial() {
-          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType result = new event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType(this);
+        public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType buildPartial() {
+          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType result = new event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType(this);
           if (bitField0_ != 0) { buildPartial0(result); }
           onBuilt();
           return result;
         }
 
-        private void buildPartial0(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType result) {
+        private void buildPartial0(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType result) {
           int from_bitField0_ = bitField0_;
           int to_bitField0_ = 0;
           if (((from_bitField0_ & 0x00000001) != 0)) {
@@ -2106,16 +2106,16 @@ public final class DeleteComplexTypeOuterClass {
 
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType) {
-            return mergeFrom((event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType)other);
+          if (other instanceof event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType) {
+            return mergeFrom((event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType other) {
-          if (other == event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.getDefaultInstance()) return this;
+        public Builder mergeFrom(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType other) {
+          if (other == event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.getDefaultInstance()) return this;
           if (other.hasAssociation()) {
             mergeAssociation(other.getAssociation());
           }
@@ -5165,23 +5165,23 @@ public final class DeleteComplexTypeOuterClass {
           return resourceBuilder_;
         }
 
-        // @@protoc_insertion_point(builder_scope:event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType)
+        // @@protoc_insertion_point(builder_scope:event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType)
       }
 
-      // @@protoc_insertion_point(class_scope:event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType)
-      private static final event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType)
+      private static final event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType();
+        DEFAULT_INSTANCE = new event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType();
       }
 
-      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType getDefaultInstance() {
+      public static event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<ChoiceWrapper_DeleteComplexType>
-          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapper_DeleteComplexType>() {
+      private static final com.google.protobuf.Parser<ChoiceWrapperDeleteComplexType>
+          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapperDeleteComplexType>() {
         @java.lang.Override
-        public ChoiceWrapper_DeleteComplexType parsePartialFrom(
+        public ChoiceWrapperDeleteComplexType parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
@@ -5200,17 +5200,17 @@ public final class DeleteComplexTypeOuterClass {
         }
       };
 
-      public static com.google.protobuf.Parser<ChoiceWrapper_DeleteComplexType> parser() {
+      public static com.google.protobuf.Parser<ChoiceWrapperDeleteComplexType> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<ChoiceWrapper_DeleteComplexType> getParserForType() {
+      public com.google.protobuf.Parser<ChoiceWrapperDeleteComplexType> getParserForType() {
         return PARSER;
       }
 
       @java.lang.Override
-      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType getDefaultInstanceForType() {
+      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -5219,41 +5219,41 @@ public final class DeleteComplexTypeOuterClass {
     private int bitField0_;
     public static final int CHOICE_WRAPPER_FIELD_NUMBER = 1;
     @SuppressWarnings("serial")
-    private java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType> choiceWrapper_;
+    private java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType> choiceWrapper_;
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType> getChoiceWrapperList() {
+    public java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType> getChoiceWrapperList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder> 
+    public java.util.List<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
     public int getChoiceWrapperCount() {
       return choiceWrapper_.size();
     }
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType getChoiceWrapper(int index) {
+    public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType getChoiceWrapper(int index) {
       return choiceWrapper_.get(index);
     }
     /**
-     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index) {
       return choiceWrapper_.get(index);
     }
@@ -5769,9 +5769,9 @@ public final class DeleteComplexTypeOuterClass {
                 done = true;
                 break;
               case 10: {
-                event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType m =
+                event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType m =
                     input.readMessage(
-                        event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.parser(),
+                        event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.parser(),
                         extensionRegistry);
                 if (choiceWrapperBuilder_ == null) {
                   ensureChoiceWrapperIsMutable();
@@ -5818,22 +5818,22 @@ public final class DeleteComplexTypeOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType> choiceWrapper_ =
+      private java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType> choiceWrapper_ =
         java.util.Collections.emptyList();
       private void ensureChoiceWrapperIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType>(choiceWrapper_);
+          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType>(choiceWrapper_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder> choiceWrapperBuilder_;
+          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder> choiceWrapperBuilder_;
 
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType> getChoiceWrapperList() {
+      public java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType> getChoiceWrapperList() {
         if (choiceWrapperBuilder_ == null) {
           return java.util.Collections.unmodifiableList(choiceWrapper_);
         } else {
@@ -5841,7 +5841,7 @@ public final class DeleteComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public int getChoiceWrapperCount() {
         if (choiceWrapperBuilder_ == null) {
@@ -5851,9 +5851,9 @@ public final class DeleteComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType getChoiceWrapper(int index) {
+      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType getChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);
         } else {
@@ -5861,10 +5861,10 @@ public final class DeleteComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType value) {
+          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5878,10 +5878,10 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder builderForValue) {
+          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.set(index, builderForValue.build());
@@ -5892,9 +5892,9 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public Builder addChoiceWrapper(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType value) {
+      public Builder addChoiceWrapper(event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5908,10 +5908,10 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType value) {
+          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5925,10 +5925,10 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder builderForValue) {
+          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(builderForValue.build());
@@ -5939,10 +5939,10 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder builderForValue) {
+          int index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(index, builderForValue.build());
@@ -5953,10 +5953,10 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addAllChoiceWrapper(
-          java.lang.Iterable<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType> values) {
+          java.lang.Iterable<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType> values) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -5968,7 +5968,7 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder clearChoiceWrapper() {
         if (choiceWrapperBuilder_ == null) {
@@ -5981,7 +5981,7 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder removeChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
@@ -5994,16 +5994,16 @@ public final class DeleteComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder getChoiceWrapperBuilder(
+      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder getChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder getChoiceWrapperOrBuilder(
           int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);  } else {
@@ -6011,9 +6011,9 @@ public final class DeleteComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder> 
+      public java.util.List<? extends event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder> 
            getChoiceWrapperOrBuilderList() {
         if (choiceWrapperBuilder_ != null) {
           return choiceWrapperBuilder_.getMessageOrBuilderList();
@@ -6022,33 +6022,33 @@ public final class DeleteComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder addChoiceWrapperBuilder() {
+      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder addChoiceWrapperBuilder() {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.getDefaultInstance());
+            event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder addChoiceWrapperBuilder(
+      public event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder addChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.getDefaultInstance());
+            index, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapper_DeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.DeleteComplexType.ChoiceWrapperDeleteComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder> 
+      public java.util.List<event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder> 
            getChoiceWrapperBuilderList() {
         return getChoiceWrapperFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder> 
+          event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder> 
           getChoiceWrapperFieldBuilder() {
         if (choiceWrapperBuilder_ == null) {
           choiceWrapperBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexType.Builder, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapper_DeleteComplexTypeOrBuilder>(
+              event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexType.Builder, event_logging.v4.DeleteComplexTypeOuterClass.DeleteComplexType.ChoiceWrapperDeleteComplexTypeOrBuilder>(
                   choiceWrapper_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -6584,10 +6584,10 @@ public final class DeleteComplexTypeOuterClass {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_event_logging_v4_DeleteComplexType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_descriptor;
+    internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_fieldAccessorTable;
+      internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -6618,43 +6618,43 @@ public final class DeleteComplexTypeOuterClass {
       "omplex_type.proto\0323event_logging/v4/virt" +
       "ual_session_complex_type.proto\032(event_lo" +
       "gging/v4/voip_complex_type.proto\032\033buf/va" +
-      "lidate/validate.proto\"\223\013\n\021DeleteComplexT" +
-      "ype\022e\n\016choice_wrapper\030\001 \003(\0132C.event_logg" +
-      "ing.v4.DeleteComplexType.ChoiceWrapper_D" +
-      "eleteComplexTypeB\010\272H\005\222\001\002\010\001\0225\n\007outcome\030\013 " +
-      "\001(\0132$.event_logging.v4.OutcomeComplexTyp" +
-      "e\0227\n\004data\030\014 \003(\0132!.event_logging.v4.DataC" +
-      "omplexTypeB\006\272H\003\222\001\000\032\246\t\n\037ChoiceWrapper_Del" +
-      "eteComplexType\022E\n\013association\030\001 \001(\0132(.ev" +
-      "ent_logging.v4.AssociationComplexTypeB\006\272" +
-      "H\003\310\001\001\022;\n\006banner\030\002 \001(\0132#.event_logging.v4" +
-      ".BannerComplexTypeB\006\272H\003\310\001\001\0227\n\004chat\030\003 \001(\013" +
-      "2!.event_logging.v4.ChatComplexTypeB\006\272H\003" +
-      "\310\001\001\022I\n\rconfiguration\030\004 \001(\0132*.event_loggi" +
-      "ng.v4.ConfigurationComplexTypeB\006\272H\003\310\001\001\022?" +
-      "\n\010criteria\030\005 \001(\0132%.event_logging.v4.Crit" +
-      "eriaComplexTypeB\006\272H\003\310\001\001\022?\n\010document\030\006 \001(" +
-      "\0132%.event_logging.v4.DocumentComplexType" +
-      "B\006\272H\003\310\001\001\0229\n\005email\030\007 \001(\0132\".event_logging." +
-      "v4.EmailComplexTypeB\006\272H\003\310\001\001\0227\n\004file\030\010 \001(" +
-      "\0132!.event_logging.v4.FileComplexTypeB\006\272H" +
-      "\003\310\001\001\022;\n\006folder\030\t \001(\0132#.event_logging.v4." +
-      "FolderComplexTypeB\006\272H\003\310\001\001\0229\n\005group\030\n \001(\013" +
-      "2\".event_logging.v4.GroupComplexTypeB\006\272H" +
-      "\003\310\001\001\022B\n\ngroup_chat\030\013 \001(\0132&.event_logging" +
-      ".v4.GroupChatComplexTypeB\006\272H\003\310\001\001\022;\n\006obje" +
-      "ct\030\014 \001(\0132#.event_logging.v4.ObjectComple" +
-      "xTypeB\006\272H\003\310\001\001\022J\n\016search_results\030\r \001(\0132*." +
-      "event_logging.v4.SearchResultsComplexTyp" +
-      "eB\006\272H\003\310\001\001\022?\n\010shortcut\030\016 \001(\0132%.event_logg" +
-      "ing.v4.ShortcutComplexTypeB\006\272H\003\310\001\001\0227\n\004us" +
-      "er\030\017 \001(\0132!.event_logging.v4.UserComplexT" +
-      "ypeB\006\272H\003\310\001\001\022L\n\017virtual_session\030\020 \001(\0132+.e" +
-      "vent_logging.v4.VirtualSessionComplexTyp" +
-      "eB\006\272H\003\310\001\001\0227\n\004voip\030\021 \001(\0132!.event_logging." +
-      "v4.VoipComplexTypeB\006\272H\003\310\001\001\022?\n\010resource\030\022" +
-      " \001(\0132%.event_logging.v4.ResourceComplexT" +
-      "ypeB\006\272H\003\310\001\001b\006proto3"
+      "lidate/validate.proto\"\221\013\n\021DeleteComplexT" +
+      "ype\022d\n\016choice_wrapper\030\001 \003(\0132B.event_logg" +
+      "ing.v4.DeleteComplexType.ChoiceWrapperDe" +
+      "leteComplexTypeB\010\272H\005\222\001\002\010\001\0225\n\007outcome\030\013 \001" +
+      "(\0132$.event_logging.v4.OutcomeComplexType" +
+      "\0227\n\004data\030\014 \003(\0132!.event_logging.v4.DataCo" +
+      "mplexTypeB\006\272H\003\222\001\000\032\245\t\n\036ChoiceWrapperDelet" +
+      "eComplexType\022E\n\013association\030\001 \001(\0132(.even" +
+      "t_logging.v4.AssociationComplexTypeB\006\272H\003" +
+      "\310\001\001\022;\n\006banner\030\002 \001(\0132#.event_logging.v4.B" +
+      "annerComplexTypeB\006\272H\003\310\001\001\0227\n\004chat\030\003 \001(\0132!" +
+      ".event_logging.v4.ChatComplexTypeB\006\272H\003\310\001" +
+      "\001\022I\n\rconfiguration\030\004 \001(\0132*.event_logging" +
+      ".v4.ConfigurationComplexTypeB\006\272H\003\310\001\001\022?\n\010" +
+      "criteria\030\005 \001(\0132%.event_logging.v4.Criter" +
+      "iaComplexTypeB\006\272H\003\310\001\001\022?\n\010document\030\006 \001(\0132" +
+      "%.event_logging.v4.DocumentComplexTypeB\006" +
+      "\272H\003\310\001\001\0229\n\005email\030\007 \001(\0132\".event_logging.v4" +
+      ".EmailComplexTypeB\006\272H\003\310\001\001\0227\n\004file\030\010 \001(\0132" +
+      "!.event_logging.v4.FileComplexTypeB\006\272H\003\310" +
+      "\001\001\022;\n\006folder\030\t \001(\0132#.event_logging.v4.Fo" +
+      "lderComplexTypeB\006\272H\003\310\001\001\0229\n\005group\030\n \001(\0132\"" +
+      ".event_logging.v4.GroupComplexTypeB\006\272H\003\310" +
+      "\001\001\022B\n\ngroup_chat\030\013 \001(\0132&.event_logging.v" +
+      "4.GroupChatComplexTypeB\006\272H\003\310\001\001\022;\n\006object" +
+      "\030\014 \001(\0132#.event_logging.v4.ObjectComplexT" +
+      "ypeB\006\272H\003\310\001\001\022J\n\016search_results\030\r \001(\0132*.ev" +
+      "ent_logging.v4.SearchResultsComplexTypeB" +
+      "\006\272H\003\310\001\001\022?\n\010shortcut\030\016 \001(\0132%.event_loggin" +
+      "g.v4.ShortcutComplexTypeB\006\272H\003\310\001\001\0227\n\004user" +
+      "\030\017 \001(\0132!.event_logging.v4.UserComplexTyp" +
+      "eB\006\272H\003\310\001\001\022L\n\017virtual_session\030\020 \001(\0132+.eve" +
+      "nt_logging.v4.VirtualSessionComplexTypeB" +
+      "\006\272H\003\310\001\001\0227\n\004voip\030\021 \001(\0132!.event_logging.v4" +
+      ".VoipComplexTypeB\006\272H\003\310\001\001\022?\n\010resource\030\022 \001" +
+      "(\0132%.event_logging.v4.ResourceComplexTyp" +
+      "eB\006\272H\003\310\001\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6684,11 +6684,11 @@ public final class DeleteComplexTypeOuterClass {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_event_logging_v4_DeleteComplexType_descriptor,
         new java.lang.String[] { "ChoiceWrapper", "Outcome", "Data", });
-    internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_descriptor =
+    internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_descriptor =
       internal_static_event_logging_v4_DeleteComplexType_descriptor.getNestedTypes().get(0);
-    internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_fieldAccessorTable = new
+    internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapper_DeleteComplexType_descriptor,
+        internal_static_event_logging_v4_DeleteComplexType_ChoiceWrapperDeleteComplexType_descriptor,
         new java.lang.String[] { "Association", "Banner", "Chat", "Configuration", "Criteria", "Document", "Email", "File", "Folder", "Group", "GroupChat", "Object", "SearchResults", "Shortcut", "User", "VirtualSession", "Voip", "Resource", });
     descriptor.resolveAllFeaturesImmutable();
     event_logging.v4.BannerComplexTypeOuterClass.getDescriptor();

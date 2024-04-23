@@ -14557,27 +14557,27 @@ public final class MultiObjectComplexTypeOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType> 
+    java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType> 
         getChoiceWrapperList();
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType getChoiceWrapper(int index);
+    event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType getChoiceWrapper(int index);
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     int getChoiceWrapperCount();
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    java.util.List<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder> 
+    java.util.List<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList();
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
-    event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index);
   }
   /**
@@ -14622,8 +14622,8 @@ public final class MultiObjectComplexTypeOuterClass {
               event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.class, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.Builder.class);
     }
 
-    public interface ChoiceWrapper_MultiObjectComplexTypeOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType)
+    public interface ChoiceWrapperMultiObjectComplexTypeOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -15113,12 +15113,12 @@ public final class MultiObjectComplexTypeOuterClass {
       event_logging.v4.ResourceComplexTypeOuterClass.ResourceComplexTypeOrBuilder getResourceOrBuilder();
     }
     /**
-     * Protobuf type {@code event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType}
+     * Protobuf type {@code event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType}
      */
-    public static final class ChoiceWrapper_MultiObjectComplexType extends
+    public static final class ChoiceWrapperMultiObjectComplexType extends
         com.google.protobuf.GeneratedMessage implements
-        // @@protoc_insertion_point(message_implements:event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType)
-        ChoiceWrapper_MultiObjectComplexTypeOrBuilder {
+        // @@protoc_insertion_point(message_implements:event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType)
+        ChoiceWrapperMultiObjectComplexTypeOrBuilder {
     private static final long serialVersionUID = 0L;
       static {
         com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
@@ -15127,26 +15127,26 @@ public final class MultiObjectComplexTypeOuterClass {
           /* minor= */ 26,
           /* patch= */ 1,
           /* suffix= */ "",
-          ChoiceWrapper_MultiObjectComplexType.class.getName());
+          ChoiceWrapperMultiObjectComplexType.class.getName());
       }
-      // Use ChoiceWrapper_MultiObjectComplexType.newBuilder() to construct.
-      private ChoiceWrapper_MultiObjectComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // Use ChoiceWrapperMultiObjectComplexType.newBuilder() to construct.
+      private ChoiceWrapperMultiObjectComplexType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
-      private ChoiceWrapper_MultiObjectComplexType() {
+      private ChoiceWrapperMultiObjectComplexType() {
       }
 
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_descriptor;
+        return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_fieldAccessorTable
+        return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.class, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder.class);
+                event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.class, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder.class);
       }
 
       private int bitField0_;
@@ -15993,10 +15993,10 @@ public final class MultiObjectComplexTypeOuterClass {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType)) {
+        if (!(obj instanceof event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType)) {
           return super.equals(obj);
         }
-        event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType other = (event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType) obj;
+        event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType other = (event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType) obj;
 
         if (hasAssociation() != other.hasAssociation()) return false;
         if (hasAssociation()) {
@@ -16176,44 +16176,44 @@ public final class MultiObjectComplexTypeOuterClass {
         return hash;
       }
 
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(byte[] data)
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(java.io.InputStream input)
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -16221,26 +16221,26 @@ public final class MultiObjectComplexTypeOuterClass {
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
 
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseDelimitedFrom(java.io.InputStream input)
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input);
       }
 
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseDelimitedFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessage
             .parseWithIOException(PARSER, input);
       }
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType parseFrom(
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -16253,7 +16253,7 @@ public final class MultiObjectComplexTypeOuterClass {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType prototype) {
+      public static Builder newBuilder(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -16269,26 +16269,26 @@ public final class MultiObjectComplexTypeOuterClass {
         return builder;
       }
       /**
-       * Protobuf type {@code event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType}
+       * Protobuf type {@code event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType)
-          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder {
+          // @@protoc_insertion_point(builder_implements:event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType)
+          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_descriptor;
+          return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_fieldAccessorTable
+          return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.class, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder.class);
+                  event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.class, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder.class);
         }
 
-        // Construct using event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.newBuilder()
+        // Construct using event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -16421,17 +16421,17 @@ public final class MultiObjectComplexTypeOuterClass {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_descriptor;
+          return event_logging.v4.MultiObjectComplexTypeOuterClass.internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_descriptor;
         }
 
         @java.lang.Override
-        public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType getDefaultInstanceForType() {
-          return event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.getDefaultInstance();
+        public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType getDefaultInstanceForType() {
+          return event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.getDefaultInstance();
         }
 
         @java.lang.Override
-        public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType build() {
-          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType result = buildPartial();
+        public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType build() {
+          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -16439,14 +16439,14 @@ public final class MultiObjectComplexTypeOuterClass {
         }
 
         @java.lang.Override
-        public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType buildPartial() {
-          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType result = new event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType(this);
+        public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType buildPartial() {
+          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType result = new event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType(this);
           if (bitField0_ != 0) { buildPartial0(result); }
           onBuilt();
           return result;
         }
 
-        private void buildPartial0(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType result) {
+        private void buildPartial0(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType result) {
           int from_bitField0_ = bitField0_;
           int to_bitField0_ = 0;
           if (((from_bitField0_ & 0x00000001) != 0)) {
@@ -16562,16 +16562,16 @@ public final class MultiObjectComplexTypeOuterClass {
 
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType) {
-            return mergeFrom((event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType)other);
+          if (other instanceof event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType) {
+            return mergeFrom((event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType other) {
-          if (other == event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.getDefaultInstance()) return this;
+        public Builder mergeFrom(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType other) {
+          if (other == event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.getDefaultInstance()) return this;
           if (other.hasAssociation()) {
             mergeAssociation(other.getAssociation());
           }
@@ -19621,23 +19621,23 @@ public final class MultiObjectComplexTypeOuterClass {
           return resourceBuilder_;
         }
 
-        // @@protoc_insertion_point(builder_scope:event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType)
+        // @@protoc_insertion_point(builder_scope:event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType)
       }
 
-      // @@protoc_insertion_point(class_scope:event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType)
-      private static final event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType)
+      private static final event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType();
+        DEFAULT_INSTANCE = new event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType();
       }
 
-      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType getDefaultInstance() {
+      public static event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<ChoiceWrapper_MultiObjectComplexType>
-          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapper_MultiObjectComplexType>() {
+      private static final com.google.protobuf.Parser<ChoiceWrapperMultiObjectComplexType>
+          PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapperMultiObjectComplexType>() {
         @java.lang.Override
-        public ChoiceWrapper_MultiObjectComplexType parsePartialFrom(
+        public ChoiceWrapperMultiObjectComplexType parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
@@ -19656,17 +19656,17 @@ public final class MultiObjectComplexTypeOuterClass {
         }
       };
 
-      public static com.google.protobuf.Parser<ChoiceWrapper_MultiObjectComplexType> parser() {
+      public static com.google.protobuf.Parser<ChoiceWrapperMultiObjectComplexType> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<ChoiceWrapper_MultiObjectComplexType> getParserForType() {
+      public com.google.protobuf.Parser<ChoiceWrapperMultiObjectComplexType> getParserForType() {
         return PARSER;
       }
 
       @java.lang.Override
-      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType getDefaultInstanceForType() {
+      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -19674,41 +19674,41 @@ public final class MultiObjectComplexTypeOuterClass {
 
     public static final int CHOICE_WRAPPER_FIELD_NUMBER = 1;
     @SuppressWarnings("serial")
-    private java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType> choiceWrapper_;
+    private java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType> choiceWrapper_;
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType> getChoiceWrapperList() {
+    public java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType> getChoiceWrapperList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public java.util.List<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder> 
+    public java.util.List<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder> 
         getChoiceWrapperOrBuilderList() {
       return choiceWrapper_;
     }
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
     public int getChoiceWrapperCount() {
       return choiceWrapper_.size();
     }
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType getChoiceWrapper(int index) {
+    public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType getChoiceWrapper(int index) {
       return choiceWrapper_.get(index);
     }
     /**
-     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+     * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
      */
     @java.lang.Override
-    public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+    public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder getChoiceWrapperOrBuilder(
         int index) {
       return choiceWrapper_.get(index);
     }
@@ -20030,9 +20030,9 @@ public final class MultiObjectComplexTypeOuterClass {
                 done = true;
                 break;
               case 10: {
-                event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType m =
+                event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType m =
                     input.readMessage(
-                        event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.parser(),
+                        event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.parser(),
                         extensionRegistry);
                 if (choiceWrapperBuilder_ == null) {
                   ensureChoiceWrapperIsMutable();
@@ -20059,22 +20059,22 @@ public final class MultiObjectComplexTypeOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType> choiceWrapper_ =
+      private java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType> choiceWrapper_ =
         java.util.Collections.emptyList();
       private void ensureChoiceWrapperIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType>(choiceWrapper_);
+          choiceWrapper_ = new java.util.ArrayList<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType>(choiceWrapper_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder> choiceWrapperBuilder_;
+          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder> choiceWrapperBuilder_;
 
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType> getChoiceWrapperList() {
+      public java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType> getChoiceWrapperList() {
         if (choiceWrapperBuilder_ == null) {
           return java.util.Collections.unmodifiableList(choiceWrapper_);
         } else {
@@ -20082,7 +20082,7 @@ public final class MultiObjectComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public int getChoiceWrapperCount() {
         if (choiceWrapperBuilder_ == null) {
@@ -20092,9 +20092,9 @@ public final class MultiObjectComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType getChoiceWrapper(int index) {
+      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType getChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);
         } else {
@@ -20102,10 +20102,10 @@ public final class MultiObjectComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType value) {
+          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -20119,10 +20119,10 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder setChoiceWrapper(
-          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder builderForValue) {
+          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.set(index, builderForValue.build());
@@ -20133,9 +20133,9 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public Builder addChoiceWrapper(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType value) {
+      public Builder addChoiceWrapper(event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -20149,10 +20149,10 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType value) {
+          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType value) {
         if (choiceWrapperBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -20166,10 +20166,10 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder builderForValue) {
+          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(builderForValue.build());
@@ -20180,10 +20180,10 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addChoiceWrapper(
-          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder builderForValue) {
+          int index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder builderForValue) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           choiceWrapper_.add(index, builderForValue.build());
@@ -20194,10 +20194,10 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder addAllChoiceWrapper(
-          java.lang.Iterable<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType> values) {
+          java.lang.Iterable<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType> values) {
         if (choiceWrapperBuilder_ == null) {
           ensureChoiceWrapperIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -20209,7 +20209,7 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder clearChoiceWrapper() {
         if (choiceWrapperBuilder_ == null) {
@@ -20222,7 +20222,7 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       public Builder removeChoiceWrapper(int index) {
         if (choiceWrapperBuilder_ == null) {
@@ -20235,16 +20235,16 @@ public final class MultiObjectComplexTypeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder getChoiceWrapperBuilder(
+      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder getChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder getChoiceWrapperOrBuilder(
+      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder getChoiceWrapperOrBuilder(
           int index) {
         if (choiceWrapperBuilder_ == null) {
           return choiceWrapper_.get(index);  } else {
@@ -20252,9 +20252,9 @@ public final class MultiObjectComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder> 
+      public java.util.List<? extends event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder> 
            getChoiceWrapperOrBuilderList() {
         if (choiceWrapperBuilder_ != null) {
           return choiceWrapperBuilder_.getMessageOrBuilderList();
@@ -20263,33 +20263,33 @@ public final class MultiObjectComplexTypeOuterClass {
         }
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder addChoiceWrapperBuilder() {
+      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder addChoiceWrapperBuilder() {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.getDefaultInstance());
+            event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder addChoiceWrapperBuilder(
+      public event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder addChoiceWrapperBuilder(
           int index) {
         return getChoiceWrapperFieldBuilder().addBuilder(
-            index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.getDefaultInstance());
+            index, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.getDefaultInstance());
       }
       /**
-       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      public java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder> 
+      public java.util.List<event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder> 
            getChoiceWrapperBuilderList() {
         return getChoiceWrapperFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder> 
+          event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder> 
           getChoiceWrapperFieldBuilder() {
         if (choiceWrapperBuilder_ == null) {
           choiceWrapperBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexType.Builder, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapper_MultiObjectComplexTypeOrBuilder>(
+              event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexType.Builder, event_logging.v4.MultiObjectComplexTypeOuterClass.MultiObjectComplexType.ChoiceWrapperMultiObjectComplexTypeOrBuilder>(
                   choiceWrapper_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -28837,10 +28837,10 @@ public final class MultiObjectComplexTypeOuterClass {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_event_logging_v4_MultiObjectComplexType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_descriptor;
+    internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_fieldAccessorTable;
+      internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_event_logging_v4_SearchResultsComplexType_descriptor;
   private static final 
@@ -28959,76 +28959,75 @@ public final class MultiObjectComplexTypeOuterClass {
       "\n\013total_pages\030\001 \001(\rB\007\272H\004*\002(\000\022\031\n\010per_page" +
       "\030\002 \001(\rB\007\272H\004*\002(\000\022\034\n\013page_number\030\003 \001(\rB\007\272H" +
       "\004*\002(\000\022\025\n\004from\030\004 \001(\rB\007\272H\004*\002(\000\022\023\n\002to\030\005 \001(\r" +
-      "B\007\272H\004*\002(\000\"\267\n\n\026MultiObjectComplexType\022o\n\016" +
-      "choice_wrapper\030\001 \003(\0132M.event_logging.v4." +
-      "MultiObjectComplexType.ChoiceWrapper_Mul" +
-      "tiObjectComplexTypeB\010\272H\005\222\001\002\010\001\032\253\t\n$Choice" +
-      "Wrapper_MultiObjectComplexType\022E\n\013associ" +
-      "ation\030\001 \001(\0132(.event_logging.v4.Associati" +
-      "onComplexTypeB\006\272H\003\310\001\001\022;\n\006banner\030\002 \001(\0132#." +
-      "event_logging.v4.BannerComplexTypeB\006\272H\003\310" +
-      "\001\001\0227\n\004chat\030\003 \001(\0132!.event_logging.v4.Chat" +
-      "ComplexTypeB\006\272H\003\310\001\001\022I\n\rconfiguration\030\004 \001" +
-      "(\0132*.event_logging.v4.ConfigurationCompl" +
-      "exTypeB\006\272H\003\310\001\001\022?\n\010criteria\030\005 \001(\0132%.event" +
-      "_logging.v4.CriteriaComplexTypeB\006\272H\003\310\001\001\022" +
-      "?\n\010document\030\006 \001(\0132%.event_logging.v4.Doc" +
-      "umentComplexTypeB\006\272H\003\310\001\001\0229\n\005email\030\007 \001(\0132" +
-      "\".event_logging.v4.EmailComplexTypeB\006\272H\003" +
-      "\310\001\001\0227\n\004file\030\010 \001(\0132!.event_logging.v4.Fil" +
-      "eComplexTypeB\006\272H\003\310\001\001\022;\n\006folder\030\t \001(\0132#.e" +
-      "vent_logging.v4.FolderComplexTypeB\006\272H\003\310\001" +
-      "\001\0229\n\005group\030\n \001(\0132\".event_logging.v4.Grou" +
-      "pComplexTypeB\006\272H\003\310\001\001\022B\n\ngroup_chat\030\013 \001(\013" +
-      "2&.event_logging.v4.GroupChatComplexType" +
-      "B\006\272H\003\310\001\001\022;\n\006object\030\014 \001(\0132#.event_logging" +
-      ".v4.ObjectComplexTypeB\006\272H\003\310\001\001\022J\n\016search_" +
-      "results\030\r \001(\0132*.event_logging.v4.SearchR" +
-      "esultsComplexTypeB\006\272H\003\310\001\001\022?\n\010shortcut\030\016 " +
-      "\001(\0132%.event_logging.v4.ShortcutComplexTy" +
-      "peB\006\272H\003\310\001\001\0227\n\004user\030\017 \001(\0132!.event_logging" +
-      ".v4.UserComplexTypeB\006\272H\003\310\001\001\022L\n\017virtual_s" +
-      "ession\030\020 \001(\0132+.event_logging.v4.VirtualS" +
-      "essionComplexTypeB\006\272H\003\310\001\001\0227\n\004voip\030\021 \001(\0132" +
-      "!.event_logging.v4.VoipComplexTypeB\006\272H\003\310" +
-      "\001\001\022?\n\010resource\030\022 \001(\0132%.event_logging.v4." +
-      "ResourceComplexTypeB\006\272H\003\310\001\001\"\373\n\n\030SearchRe" +
-      "sultsComplexType\022=\n\004meta\030\001 \003(\0132\'.event_l" +
-      "ogging.v4.AnyContentComplexTypeB\006\272H\003\222\001\000\022" +
-      "\014\n\004type\030\002 \001(\t\022\n\n\002id\030\003 \001(\t\022\014\n\004name\030\004 \001(\t\022" +
-      "\023\n\013description\030\005 \001(\t\022C\n\016classification\030\006" +
-      " \001(\0132+.event_logging.v4.ClassificationCo" +
-      "mplexType\022\r\n\005state\030\007 \001(\t\0223\n\006groups\030\010 \001(\013" +
-      "2#.event_logging.v4.GroupsComplexType\022O\n" +
-      "\013permissions\030\t \001(\0132:.event_logging.v4.Se" +
-      "archResultsComplexType.PermissionsType\0227" +
-      "\n\004tags\030\n \001(\0132).event_logging.v4.MetaData" +
-      "TagsComplexType\022P\n\014data_sources\030\013 \001(\0132:." +
-      "event_logging.v4.SearchResultsComplexTyp" +
-      "e.DataSourcesType\0221\n\005query\030\014 \001(\0132\".event" +
-      "_logging.v4.QueryComplexType\022N\n\013result_p" +
-      "age\030\r \001(\01329.event_logging.v4.SearchResul" +
-      "tsComplexType.ResultPageType\022\036\n\rtotal_re" +
-      "sults\030\016 \001(\rB\007\272H\004*\002(\000\0229\n\007results\030\017 \001(\0132(." +
-      "event_logging.v4.MultiObjectComplexType\022" +
-      "7\n\004data\030\025 \003(\0132!.event_logging.v4.DataCom" +
-      "plexTypeB\006\272H\003\222\001\000\032\236\003\n\017PermissionsType\022g\n\n" +
-      "permission\030\001 \003(\0132I.event_logging.v4.Sear" +
-      "chResultsComplexType.PermissionsType.Per" +
-      "missionTypeB\010\272H\005\222\001\002\010\001\032\241\002\n\016PermissionType" +
-      "\0227\n\004user\030\001 \001(\0132!.event_logging.v4.UserCo" +
-      "mplexTypeB\006\272H\003\310\001\001\0229\n\005group\030\002 \001(\0132\".event" +
-      "_logging.v4.GroupComplexTypeB\006\272H\003\310\001\001\022M\n\005" +
-      "allow\030\013 \003(\0162/.event_logging.v4.Permissio" +
-      "nAttributeSimpleTypeB\r\272H\n\222\001\007\"\005\202\001\002\020\001\022L\n\004d" +
-      "eny\030\014 \003(\0162/.event_logging.v4.PermissionA" +
-      "ttributeSimpleTypeB\r\272H\n\222\001\007\"\005\202\001\002\020\001\0320\n\017Dat" +
-      "aSourcesType\022\035\n\013data_source\030\001 \003(\tB\010\272H\005\222\001" +
-      "\002\010\001\032\223\001\n\016ResultPageType\022\034\n\013total_pages\030\001 " +
-      "\001(\rB\007\272H\004*\002(\000\022\031\n\010per_page\030\002 \001(\rB\007\272H\004*\002(\000\022" +
-      "\034\n\013page_number\030\003 \001(\rB\007\272H\004*\002(\000\022\025\n\004from\030\004 " +
-      "\001(\rB\007\272H\004*\002(\000\022\023\n\002to\030\005 \001(\rB\007\272H\004*\002(\000b\006proto" +
-      "3"
+      "B\007\272H\004*\002(\000\"\265\n\n\026MultiObjectComplexType\022n\n\016" +
+      "choice_wrapper\030\001 \003(\0132L.event_logging.v4." +
+      "MultiObjectComplexType.ChoiceWrapperMult" +
+      "iObjectComplexTypeB\010\272H\005\222\001\002\010\001\032\252\t\n#ChoiceW" +
+      "rapperMultiObjectComplexType\022E\n\013associat" +
+      "ion\030\001 \001(\0132(.event_logging.v4.Association" +
+      "ComplexTypeB\006\272H\003\310\001\001\022;\n\006banner\030\002 \001(\0132#.ev" +
+      "ent_logging.v4.BannerComplexTypeB\006\272H\003\310\001\001" +
+      "\0227\n\004chat\030\003 \001(\0132!.event_logging.v4.ChatCo" +
+      "mplexTypeB\006\272H\003\310\001\001\022I\n\rconfiguration\030\004 \001(\013" +
+      "2*.event_logging.v4.ConfigurationComplex" +
+      "TypeB\006\272H\003\310\001\001\022?\n\010criteria\030\005 \001(\0132%.event_l" +
+      "ogging.v4.CriteriaComplexTypeB\006\272H\003\310\001\001\022?\n" +
+      "\010document\030\006 \001(\0132%.event_logging.v4.Docum" +
+      "entComplexTypeB\006\272H\003\310\001\001\0229\n\005email\030\007 \001(\0132\"." +
+      "event_logging.v4.EmailComplexTypeB\006\272H\003\310\001" +
+      "\001\0227\n\004file\030\010 \001(\0132!.event_logging.v4.FileC" +
+      "omplexTypeB\006\272H\003\310\001\001\022;\n\006folder\030\t \001(\0132#.eve" +
+      "nt_logging.v4.FolderComplexTypeB\006\272H\003\310\001\001\022" +
+      "9\n\005group\030\n \001(\0132\".event_logging.v4.GroupC" +
+      "omplexTypeB\006\272H\003\310\001\001\022B\n\ngroup_chat\030\013 \001(\0132&" +
+      ".event_logging.v4.GroupChatComplexTypeB\006" +
+      "\272H\003\310\001\001\022;\n\006object\030\014 \001(\0132#.event_logging.v" +
+      "4.ObjectComplexTypeB\006\272H\003\310\001\001\022J\n\016search_re" +
+      "sults\030\r \001(\0132*.event_logging.v4.SearchRes" +
+      "ultsComplexTypeB\006\272H\003\310\001\001\022?\n\010shortcut\030\016 \001(" +
+      "\0132%.event_logging.v4.ShortcutComplexType" +
+      "B\006\272H\003\310\001\001\0227\n\004user\030\017 \001(\0132!.event_logging.v" +
+      "4.UserComplexTypeB\006\272H\003\310\001\001\022L\n\017virtual_ses" +
+      "sion\030\020 \001(\0132+.event_logging.v4.VirtualSes" +
+      "sionComplexTypeB\006\272H\003\310\001\001\0227\n\004voip\030\021 \001(\0132!." +
+      "event_logging.v4.VoipComplexTypeB\006\272H\003\310\001\001" +
+      "\022?\n\010resource\030\022 \001(\0132%.event_logging.v4.Re" +
+      "sourceComplexTypeB\006\272H\003\310\001\001\"\373\n\n\030SearchResu" +
+      "ltsComplexType\022=\n\004meta\030\001 \003(\0132\'.event_log" +
+      "ging.v4.AnyContentComplexTypeB\006\272H\003\222\001\000\022\014\n" +
+      "\004type\030\002 \001(\t\022\n\n\002id\030\003 \001(\t\022\014\n\004name\030\004 \001(\t\022\023\n" +
+      "\013description\030\005 \001(\t\022C\n\016classification\030\006 \001" +
+      "(\0132+.event_logging.v4.ClassificationComp" +
+      "lexType\022\r\n\005state\030\007 \001(\t\0223\n\006groups\030\010 \001(\0132#" +
+      ".event_logging.v4.GroupsComplexType\022O\n\013p" +
+      "ermissions\030\t \001(\0132:.event_logging.v4.Sear" +
+      "chResultsComplexType.PermissionsType\0227\n\004" +
+      "tags\030\n \001(\0132).event_logging.v4.MetaDataTa" +
+      "gsComplexType\022P\n\014data_sources\030\013 \001(\0132:.ev" +
+      "ent_logging.v4.SearchResultsComplexType." +
+      "DataSourcesType\0221\n\005query\030\014 \001(\0132\".event_l" +
+      "ogging.v4.QueryComplexType\022N\n\013result_pag" +
+      "e\030\r \001(\01329.event_logging.v4.SearchResults" +
+      "ComplexType.ResultPageType\022\036\n\rtotal_resu" +
+      "lts\030\016 \001(\rB\007\272H\004*\002(\000\0229\n\007results\030\017 \001(\0132(.ev" +
+      "ent_logging.v4.MultiObjectComplexType\0227\n" +
+      "\004data\030\025 \003(\0132!.event_logging.v4.DataCompl" +
+      "exTypeB\006\272H\003\222\001\000\032\236\003\n\017PermissionsType\022g\n\npe" +
+      "rmission\030\001 \003(\0132I.event_logging.v4.Search" +
+      "ResultsComplexType.PermissionsType.Permi" +
+      "ssionTypeB\010\272H\005\222\001\002\010\001\032\241\002\n\016PermissionType\0227" +
+      "\n\004user\030\001 \001(\0132!.event_logging.v4.UserComp" +
+      "lexTypeB\006\272H\003\310\001\001\0229\n\005group\030\002 \001(\0132\".event_l" +
+      "ogging.v4.GroupComplexTypeB\006\272H\003\310\001\001\022M\n\005al" +
+      "low\030\013 \003(\0162/.event_logging.v4.PermissionA" +
+      "ttributeSimpleTypeB\r\272H\n\222\001\007\"\005\202\001\002\020\001\022L\n\004den" +
+      "y\030\014 \003(\0162/.event_logging.v4.PermissionAtt" +
+      "ributeSimpleTypeB\r\272H\n\222\001\007\"\005\202\001\002\020\001\0320\n\017DataS" +
+      "ourcesType\022\035\n\013data_source\030\001 \003(\tB\010\272H\005\222\001\002\010" +
+      "\001\032\223\001\n\016ResultPageType\022\034\n\013total_pages\030\001 \001(" +
+      "\rB\007\272H\004*\002(\000\022\031\n\010per_page\030\002 \001(\rB\007\272H\004*\002(\000\022\034\n" +
+      "\013page_number\030\003 \001(\rB\007\272H\004*\002(\000\022\025\n\004from\030\004 \001(" +
+      "\rB\007\272H\004*\002(\000\022\023\n\002to\030\005 \001(\rB\007\272H\004*\002(\000b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -29109,11 +29108,11 @@ public final class MultiObjectComplexTypeOuterClass {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_event_logging_v4_MultiObjectComplexType_descriptor,
         new java.lang.String[] { "ChoiceWrapper", });
-    internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_descriptor =
+    internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_descriptor =
       internal_static_event_logging_v4_MultiObjectComplexType_descriptor.getNestedTypes().get(0);
-    internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_fieldAccessorTable = new
+    internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapper_MultiObjectComplexType_descriptor,
+        internal_static_event_logging_v4_MultiObjectComplexType_ChoiceWrapperMultiObjectComplexType_descriptor,
         new java.lang.String[] { "Association", "Banner", "Chat", "Configuration", "Criteria", "Document", "Email", "File", "Folder", "Group", "GroupChat", "Object", "SearchResults", "Shortcut", "User", "VirtualSession", "Voip", "Resource", });
     internal_static_event_logging_v4_SearchResultsComplexType_descriptor =
       getDescriptor().getMessageTypes().get(3);

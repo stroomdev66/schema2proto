@@ -208,27 +208,27 @@ public final class QueryComplexTypeOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType> 
+      java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType> 
           getChoiceWrapperList();
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType getChoiceWrapper(int index);
+      event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType getChoiceWrapper(int index);
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       int getChoiceWrapperCount();
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      java.util.List<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder> 
+      java.util.List<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder> 
           getChoiceWrapperOrBuilderList();
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
-      event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder getChoiceWrapperOrBuilder(
+      event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder getChoiceWrapperOrBuilder(
           int index);
     }
     /**
@@ -273,8 +273,8 @@ public final class QueryComplexTypeOuterClass {
                 event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.class, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.Builder.class);
       }
 
-      public interface ChoiceWrapper_AdvancedTypeOrBuilder extends
-          // @@protoc_insertion_point(interface_extends:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType)
+      public interface ChoiceWrapperAdvancedTypeOrBuilder extends
+          // @@protoc_insertion_point(interface_extends:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType)
           com.google.protobuf.MessageOrBuilder {
 
         /**
@@ -386,12 +386,12 @@ public final class QueryComplexTypeOuterClass {
         event_logging.v4.LogicComplexType.NotComplexTypeOrBuilder getNotOrBuilder();
       }
       /**
-       * Protobuf type {@code event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType}
+       * Protobuf type {@code event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType}
        */
-      public static final class ChoiceWrapper_AdvancedType extends
+      public static final class ChoiceWrapperAdvancedType extends
           com.google.protobuf.GeneratedMessage implements
-          // @@protoc_insertion_point(message_implements:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType)
-          ChoiceWrapper_AdvancedTypeOrBuilder {
+          // @@protoc_insertion_point(message_implements:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType)
+          ChoiceWrapperAdvancedTypeOrBuilder {
       private static final long serialVersionUID = 0L;
         static {
           com.google.protobuf.RuntimeVersion.validateProtobufGencodeVersion(
@@ -400,26 +400,26 @@ public final class QueryComplexTypeOuterClass {
             /* minor= */ 26,
             /* patch= */ 1,
             /* suffix= */ "",
-            ChoiceWrapper_AdvancedType.class.getName());
+            ChoiceWrapperAdvancedType.class.getName());
         }
-        // Use ChoiceWrapper_AdvancedType.newBuilder() to construct.
-        private ChoiceWrapper_AdvancedType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        // Use ChoiceWrapperAdvancedType.newBuilder() to construct.
+        private ChoiceWrapperAdvancedType(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
           super(builder);
         }
-        private ChoiceWrapper_AdvancedType() {
+        private ChoiceWrapperAdvancedType() {
         }
 
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_descriptor;
+          return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_fieldAccessorTable
+          return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.class, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder.class);
+                  event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.class, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder.class);
         }
 
         private int bitField0_;
@@ -636,10 +636,10 @@ public final class QueryComplexTypeOuterClass {
           if (obj == this) {
            return true;
           }
-          if (!(obj instanceof event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType)) {
+          if (!(obj instanceof event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType)) {
             return super.equals(obj);
           }
-          event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType other = (event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType) obj;
+          event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType other = (event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType) obj;
 
           if (hasTerm() != other.hasTerm()) return false;
           if (hasTerm()) {
@@ -693,44 +693,44 @@ public final class QueryComplexTypeOuterClass {
           return hash;
         }
 
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             java.nio.ByteBuffer data)
             throws com.google.protobuf.InvalidProtocolBufferException {
           return PARSER.parseFrom(data);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             java.nio.ByteBuffer data,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
           return PARSER.parseFrom(data, extensionRegistry);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             com.google.protobuf.ByteString data)
             throws com.google.protobuf.InvalidProtocolBufferException {
           return PARSER.parseFrom(data);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             com.google.protobuf.ByteString data,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
           return PARSER.parseFrom(data, extensionRegistry);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(byte[] data)
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(byte[] data)
             throws com.google.protobuf.InvalidProtocolBufferException {
           return PARSER.parseFrom(data);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             byte[] data,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
           return PARSER.parseFrom(data, extensionRegistry);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(java.io.InputStream input)
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(java.io.InputStream input)
             throws java.io.IOException {
           return com.google.protobuf.GeneratedMessage
               .parseWithIOException(PARSER, input);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
@@ -738,26 +738,26 @@ public final class QueryComplexTypeOuterClass {
               .parseWithIOException(PARSER, input, extensionRegistry);
         }
 
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseDelimitedFrom(java.io.InputStream input)
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseDelimitedFrom(java.io.InputStream input)
             throws java.io.IOException {
           return com.google.protobuf.GeneratedMessage
               .parseDelimitedWithIOException(PARSER, input);
         }
 
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseDelimitedFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseDelimitedFrom(
             java.io.InputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
           return com.google.protobuf.GeneratedMessage
               .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             com.google.protobuf.CodedInputStream input)
             throws java.io.IOException {
           return com.google.protobuf.GeneratedMessage
               .parseWithIOException(PARSER, input);
         }
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType parseFrom(
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType parseFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
@@ -770,7 +770,7 @@ public final class QueryComplexTypeOuterClass {
         public static Builder newBuilder() {
           return DEFAULT_INSTANCE.toBuilder();
         }
-        public static Builder newBuilder(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType prototype) {
+        public static Builder newBuilder(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType prototype) {
           return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
         }
         @java.lang.Override
@@ -786,26 +786,26 @@ public final class QueryComplexTypeOuterClass {
           return builder;
         }
         /**
-         * Protobuf type {@code event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType}
+         * Protobuf type {@code event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType}
          */
         public static final class Builder extends
             com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-            // @@protoc_insertion_point(builder_implements:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType)
-            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder {
+            // @@protoc_insertion_point(builder_implements:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType)
+            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder {
           public static final com.google.protobuf.Descriptors.Descriptor
               getDescriptor() {
-            return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_descriptor;
+            return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_descriptor;
           }
 
           @java.lang.Override
           protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
               internalGetFieldAccessorTable() {
-            return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_fieldAccessorTable
+            return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_fieldAccessorTable
                 .ensureFieldAccessorsInitialized(
-                    event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.class, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder.class);
+                    event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.class, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder.class);
           }
 
-          // Construct using event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.newBuilder()
+          // Construct using event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.newBuilder()
           private Builder() {
             maybeForceBuilderInitialization();
           }
@@ -854,17 +854,17 @@ public final class QueryComplexTypeOuterClass {
           @java.lang.Override
           public com.google.protobuf.Descriptors.Descriptor
               getDescriptorForType() {
-            return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_descriptor;
+            return event_logging.v4.QueryComplexTypeOuterClass.internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_descriptor;
           }
 
           @java.lang.Override
-          public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType getDefaultInstanceForType() {
-            return event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.getDefaultInstance();
+          public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType getDefaultInstanceForType() {
+            return event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.getDefaultInstance();
           }
 
           @java.lang.Override
-          public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType build() {
-            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType result = buildPartial();
+          public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType build() {
+            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType result = buildPartial();
             if (!result.isInitialized()) {
               throw newUninitializedMessageException(result);
             }
@@ -872,14 +872,14 @@ public final class QueryComplexTypeOuterClass {
           }
 
           @java.lang.Override
-          public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType buildPartial() {
-            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType result = new event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType(this);
+          public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType buildPartial() {
+            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType result = new event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType(this);
             if (bitField0_ != 0) { buildPartial0(result); }
             onBuilt();
             return result;
           }
 
-          private void buildPartial0(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType result) {
+          private void buildPartial0(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType result) {
             int from_bitField0_ = bitField0_;
             int to_bitField0_ = 0;
             if (((from_bitField0_ & 0x00000001) != 0)) {
@@ -911,16 +911,16 @@ public final class QueryComplexTypeOuterClass {
 
           @java.lang.Override
           public Builder mergeFrom(com.google.protobuf.Message other) {
-            if (other instanceof event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType) {
-              return mergeFrom((event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType)other);
+            if (other instanceof event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType) {
+              return mergeFrom((event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType)other);
             } else {
               super.mergeFrom(other);
               return this;
             }
           }
 
-          public Builder mergeFrom(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType other) {
-            if (other == event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.getDefaultInstance()) return this;
+          public Builder mergeFrom(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType other) {
+            if (other == event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.getDefaultInstance()) return this;
             if (other.hasTerm()) {
               mergeTerm(other.getTerm());
             }
@@ -1632,23 +1632,23 @@ public final class QueryComplexTypeOuterClass {
             return notBuilder_;
           }
 
-          // @@protoc_insertion_point(builder_scope:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType)
+          // @@protoc_insertion_point(builder_scope:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType)
         }
 
-        // @@protoc_insertion_point(class_scope:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType)
-        private static final event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType DEFAULT_INSTANCE;
+        // @@protoc_insertion_point(class_scope:event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType)
+        private static final event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType DEFAULT_INSTANCE;
         static {
-          DEFAULT_INSTANCE = new event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType();
+          DEFAULT_INSTANCE = new event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType();
         }
 
-        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType getDefaultInstance() {
+        public static event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType getDefaultInstance() {
           return DEFAULT_INSTANCE;
         }
 
-        private static final com.google.protobuf.Parser<ChoiceWrapper_AdvancedType>
-            PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapper_AdvancedType>() {
+        private static final com.google.protobuf.Parser<ChoiceWrapperAdvancedType>
+            PARSER = new com.google.protobuf.AbstractParser<ChoiceWrapperAdvancedType>() {
           @java.lang.Override
-          public ChoiceWrapper_AdvancedType parsePartialFrom(
+          public ChoiceWrapperAdvancedType parsePartialFrom(
               com.google.protobuf.CodedInputStream input,
               com.google.protobuf.ExtensionRegistryLite extensionRegistry)
               throws com.google.protobuf.InvalidProtocolBufferException {
@@ -1667,17 +1667,17 @@ public final class QueryComplexTypeOuterClass {
           }
         };
 
-        public static com.google.protobuf.Parser<ChoiceWrapper_AdvancedType> parser() {
+        public static com.google.protobuf.Parser<ChoiceWrapperAdvancedType> parser() {
           return PARSER;
         }
 
         @java.lang.Override
-        public com.google.protobuf.Parser<ChoiceWrapper_AdvancedType> getParserForType() {
+        public com.google.protobuf.Parser<ChoiceWrapperAdvancedType> getParserForType() {
           return PARSER;
         }
 
         @java.lang.Override
-        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType getDefaultInstanceForType() {
+        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType getDefaultInstanceForType() {
           return DEFAULT_INSTANCE;
         }
 
@@ -1685,41 +1685,41 @@ public final class QueryComplexTypeOuterClass {
 
       public static final int CHOICE_WRAPPER_FIELD_NUMBER = 1;
       @SuppressWarnings("serial")
-      private java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType> choiceWrapper_;
+      private java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType> choiceWrapper_;
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       @java.lang.Override
-      public java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType> getChoiceWrapperList() {
+      public java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType> getChoiceWrapperList() {
         return choiceWrapper_;
       }
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       @java.lang.Override
-      public java.util.List<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder> 
+      public java.util.List<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder> 
           getChoiceWrapperOrBuilderList() {
         return choiceWrapper_;
       }
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       @java.lang.Override
       public int getChoiceWrapperCount() {
         return choiceWrapper_.size();
       }
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       @java.lang.Override
-      public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType getChoiceWrapper(int index) {
+      public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType getChoiceWrapper(int index) {
         return choiceWrapper_.get(index);
       }
       /**
-       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+       * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
        */
       @java.lang.Override
-      public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder getChoiceWrapperOrBuilder(
+      public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder getChoiceWrapperOrBuilder(
           int index) {
         return choiceWrapper_.get(index);
       }
@@ -2041,9 +2041,9 @@ public final class QueryComplexTypeOuterClass {
                   done = true;
                   break;
                 case 10: {
-                  event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType m =
+                  event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType m =
                       input.readMessage(
-                          event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.parser(),
+                          event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.parser(),
                           extensionRegistry);
                   if (choiceWrapperBuilder_ == null) {
                     ensureChoiceWrapperIsMutable();
@@ -2070,22 +2070,22 @@ public final class QueryComplexTypeOuterClass {
         }
         private int bitField0_;
 
-        private java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType> choiceWrapper_ =
+        private java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType> choiceWrapper_ =
           java.util.Collections.emptyList();
         private void ensureChoiceWrapperIsMutable() {
           if (!((bitField0_ & 0x00000001) != 0)) {
-            choiceWrapper_ = new java.util.ArrayList<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType>(choiceWrapper_);
+            choiceWrapper_ = new java.util.ArrayList<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType>(choiceWrapper_);
             bitField0_ |= 0x00000001;
            }
         }
 
         private com.google.protobuf.RepeatedFieldBuilder<
-            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder> choiceWrapperBuilder_;
+            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder> choiceWrapperBuilder_;
 
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType> getChoiceWrapperList() {
+        public java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType> getChoiceWrapperList() {
           if (choiceWrapperBuilder_ == null) {
             return java.util.Collections.unmodifiableList(choiceWrapper_);
           } else {
@@ -2093,7 +2093,7 @@ public final class QueryComplexTypeOuterClass {
           }
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public int getChoiceWrapperCount() {
           if (choiceWrapperBuilder_ == null) {
@@ -2103,9 +2103,9 @@ public final class QueryComplexTypeOuterClass {
           }
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType getChoiceWrapper(int index) {
+        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType getChoiceWrapper(int index) {
           if (choiceWrapperBuilder_ == null) {
             return choiceWrapper_.get(index);
           } else {
@@ -2113,10 +2113,10 @@ public final class QueryComplexTypeOuterClass {
           }
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder setChoiceWrapper(
-            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType value) {
+            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType value) {
           if (choiceWrapperBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2130,10 +2130,10 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder setChoiceWrapper(
-            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder builderForValue) {
+            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder builderForValue) {
           if (choiceWrapperBuilder_ == null) {
             ensureChoiceWrapperIsMutable();
             choiceWrapper_.set(index, builderForValue.build());
@@ -2144,9 +2144,9 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public Builder addChoiceWrapper(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType value) {
+        public Builder addChoiceWrapper(event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType value) {
           if (choiceWrapperBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2160,10 +2160,10 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder addChoiceWrapper(
-            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType value) {
+            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType value) {
           if (choiceWrapperBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2177,10 +2177,10 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder addChoiceWrapper(
-            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder builderForValue) {
+            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder builderForValue) {
           if (choiceWrapperBuilder_ == null) {
             ensureChoiceWrapperIsMutable();
             choiceWrapper_.add(builderForValue.build());
@@ -2191,10 +2191,10 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder addChoiceWrapper(
-            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder builderForValue) {
+            int index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder builderForValue) {
           if (choiceWrapperBuilder_ == null) {
             ensureChoiceWrapperIsMutable();
             choiceWrapper_.add(index, builderForValue.build());
@@ -2205,10 +2205,10 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder addAllChoiceWrapper(
-            java.lang.Iterable<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType> values) {
+            java.lang.Iterable<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType> values) {
           if (choiceWrapperBuilder_ == null) {
             ensureChoiceWrapperIsMutable();
             com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2220,7 +2220,7 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder clearChoiceWrapper() {
           if (choiceWrapperBuilder_ == null) {
@@ -2233,7 +2233,7 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
         public Builder removeChoiceWrapper(int index) {
           if (choiceWrapperBuilder_ == null) {
@@ -2246,16 +2246,16 @@ public final class QueryComplexTypeOuterClass {
           return this;
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder getChoiceWrapperBuilder(
+        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder getChoiceWrapperBuilder(
             int index) {
           return getChoiceWrapperFieldBuilder().getBuilder(index);
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder getChoiceWrapperOrBuilder(
+        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder getChoiceWrapperOrBuilder(
             int index) {
           if (choiceWrapperBuilder_ == null) {
             return choiceWrapper_.get(index);  } else {
@@ -2263,9 +2263,9 @@ public final class QueryComplexTypeOuterClass {
           }
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public java.util.List<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder> 
+        public java.util.List<? extends event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder> 
              getChoiceWrapperOrBuilderList() {
           if (choiceWrapperBuilder_ != null) {
             return choiceWrapperBuilder_.getMessageOrBuilderList();
@@ -2274,33 +2274,33 @@ public final class QueryComplexTypeOuterClass {
           }
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder addChoiceWrapperBuilder() {
+        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder addChoiceWrapperBuilder() {
           return getChoiceWrapperFieldBuilder().addBuilder(
-              event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.getDefaultInstance());
+              event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.getDefaultInstance());
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder addChoiceWrapperBuilder(
+        public event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder addChoiceWrapperBuilder(
             int index) {
           return getChoiceWrapperFieldBuilder().addBuilder(
-              index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.getDefaultInstance());
+              index, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.getDefaultInstance());
         }
         /**
-         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
+         * <code>repeated .event_logging.v4.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType choice_wrapper = 1 [(.buf.validate.field) = { ... }</code>
          */
-        public java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder> 
+        public java.util.List<event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder> 
              getChoiceWrapperBuilderList() {
           return getChoiceWrapperFieldBuilder().getBuilderList();
         }
         private com.google.protobuf.RepeatedFieldBuilder<
-            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder> 
+            event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder> 
             getChoiceWrapperFieldBuilder() {
           if (choiceWrapperBuilder_ == null) {
             choiceWrapperBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-                event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedType.Builder, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapper_AdvancedTypeOrBuilder>(
+                event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedType.Builder, event_logging.v4.QueryComplexTypeOuterClass.QueryComplexType.AdvancedType.ChoiceWrapperAdvancedTypeOrBuilder>(
                     choiceWrapper_,
                     ((bitField0_ & 0x00000001) != 0),
                     getParentForChildren(),
@@ -4557,10 +4557,10 @@ public final class QueryComplexTypeOuterClass {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_event_logging_v4_QueryComplexType_AdvancedType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_descriptor;
+    internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_fieldAccessorTable;
+      internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_event_logging_v4_QueryComplexType_SimpleType_descriptor;
   private static final 
@@ -4579,22 +4579,22 @@ public final class QueryComplexTypeOuterClass {
       "oto\022\020event_logging.v4\032)event_logging/v4/" +
       "logic_complex_type.proto\032(event_logging/" +
       "v4/term_complex_type.proto\032\033buf/validate" +
-      "/validate.proto\"\330\004\n\020QueryComplexType\022\n\n\002" +
+      "/validate.proto\"\326\004\n\020QueryComplexType\022\n\n\002" +
       "id\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\023\n\013description\030\003 " +
       "\001(\t\022A\n\010advanced\030\004 \001(\0132/.event_logging.v4" +
       ".QueryComplexType.AdvancedType\022=\n\006simple" +
       "\030\005 \001(\0132-.event_logging.v4.QueryComplexTy" +
-      "pe.SimpleType\022\013\n\003raw\030\006 \001(\t\032\325\002\n\014AdvancedT" +
-      "ype\022j\n\016choice_wrapper\030\001 \003(\0132J.event_logg" +
+      "pe.SimpleType\022\013\n\003raw\030\006 \001(\t\032\323\002\n\014AdvancedT" +
+      "ype\022i\n\016choice_wrapper\030\001 \003(\0132I.event_logg" +
       "ing.v4.QueryComplexType.AdvancedType.Cho" +
-      "iceWrapper_AdvancedTypeB\006\272H\003\222\001\000\032\330\001\n\032Choi" +
-      "ceWrapper_AdvancedType\022/\n\004term\030\001 \001(\0132!.e" +
-      "vent_logging.v4.TermComplexType\022-\n\003and\030\002" +
-      " \001(\0132 .event_logging.v4.AndComplexType\022+" +
-      "\n\002or\030\003 \001(\0132\037.event_logging.v4.OrComplexT" +
-      "ype\022-\n\003not\030\004 \001(\0132 .event_logging.v4.NotC" +
-      "omplexType\032.\n\nSimpleType\022\017\n\007include\030\001 \001(" +
-      "\t\022\017\n\007exclude\030\002 \001(\tb\006proto3"
+      "iceWrapperAdvancedTypeB\006\272H\003\222\001\000\032\327\001\n\031Choic" +
+      "eWrapperAdvancedType\022/\n\004term\030\001 \001(\0132!.eve" +
+      "nt_logging.v4.TermComplexType\022-\n\003and\030\002 \001" +
+      "(\0132 .event_logging.v4.AndComplexType\022+\n\002" +
+      "or\030\003 \001(\0132\037.event_logging.v4.OrComplexTyp" +
+      "e\022-\n\003not\030\004 \001(\0132 .event_logging.v4.NotCom" +
+      "plexType\032.\n\nSimpleType\022\017\n\007include\030\001 \001(\t\022" +
+      "\017\n\007exclude\030\002 \001(\tb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -4615,11 +4615,11 @@ public final class QueryComplexTypeOuterClass {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_event_logging_v4_QueryComplexType_AdvancedType_descriptor,
         new java.lang.String[] { "ChoiceWrapper", });
-    internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_descriptor =
+    internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_descriptor =
       internal_static_event_logging_v4_QueryComplexType_AdvancedType_descriptor.getNestedTypes().get(0);
-    internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_fieldAccessorTable = new
+    internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapper_AdvancedType_descriptor,
+        internal_static_event_logging_v4_QueryComplexType_AdvancedType_ChoiceWrapperAdvancedType_descriptor,
         new java.lang.String[] { "Term", "And", "Or", "Not", });
     internal_static_event_logging_v4_QueryComplexType_SimpleType_descriptor =
       internal_static_event_logging_v4_QueryComplexType_descriptor.getNestedTypes().get(1);

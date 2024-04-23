@@ -23,7 +23,7 @@ import "buf/validate/validate.proto";
 
 // Describes an event action relating to creating data, files, documents, etc.
 message CreateComplexType {
-  repeated ChoiceWrapper_CreateComplexType choice_wrapper = 1 [
+  repeated ChoiceWrapperCreateComplexType choice_wrapper = 1 [
     (buf.validate.field).repeated = {
       min_items: 1
     }
@@ -37,7 +37,7 @@ message CreateComplexType {
     }
   ];
 
-  message ChoiceWrapper_CreateComplexType {
+  message ChoiceWrapperCreateComplexType {
     // Describes the association or link between two or more entities, e.g. the link between two web resources.
     AssociationComplexType association = 1 [
       (buf.validate.field).required = true

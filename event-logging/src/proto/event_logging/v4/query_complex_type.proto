@@ -22,13 +22,13 @@ message QueryComplexType {
 
   // A complex boolean tree or operators and terms that describes the query.
   message AdvancedType {
-    repeated ChoiceWrapper_AdvancedType choice_wrapper = 1 [
+    repeated ChoiceWrapperAdvancedType choice_wrapper = 1 [
       (buf.validate.field).repeated = {
         min_items: 0
       }
     ];
   
-    message ChoiceWrapper_AdvancedType {
+    message ChoiceWrapperAdvancedType {
       // Describes a field to search and what to search for using name, condition and value, e.g. Title Contains 'Fox' or Title Equals 'The Quick Brown Fox'.
       TermComplexType term = 1;
       // All of the enclosed items are to be treated as being AND'd together.
