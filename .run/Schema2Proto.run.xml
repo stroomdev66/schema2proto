@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Schema2Proto" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="no.entur.schema2proto.generateproto.Schema2Proto" />
+    <module name="schema2proto-lib" />
+    <option name="PROGRAM_PARAMETERS" value="--configFile $PROJECT_DIR$/event-logging/generateproto.yml $PROJECT_DIR$/event-logging/schema/events.xsd" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="no.entur.schema2proto.generateproto.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
