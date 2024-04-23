@@ -15,7 +15,11 @@ import "buf/validate/validate.proto";
 // The root element that contains multiple Event elements.
 message EventsType {
   // The version of the schema that this document conforms to.
-  VersionSimpleType version = 1;
+  VersionSimpleType version = 1 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // This element contains data relating to the sharing of a set of events between different systems or organisations. The data contained within this element will confirm to a specification defined outside of this schema.
   AnyContentComplexType sharing_data = 2;
   // A single event that has occurred and been recorded.

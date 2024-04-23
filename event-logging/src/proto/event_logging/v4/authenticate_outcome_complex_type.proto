@@ -17,7 +17,11 @@ message AuthenticateOutcomeComplexType {
   // Human readable text that describes the outcome.
   string description = 4;
   // An enumeration used to describe the reason why authentication failed.
-  AuthenticateOutcomeReasonSimpleType reason = 5;
+  AuthenticateOutcomeReasonSimpleType reason = 5 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // Any other event data that does not fit into a schema element but may be useful for the purpose of audit.
   repeated DataComplexType data = 6 [
     (buf.validate.field).repeated = {

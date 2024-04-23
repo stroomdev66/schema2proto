@@ -38,7 +38,11 @@ message VirtualSessionComplexType {
   // Metadata tags that can be used for additional object tagging or categorisation. Object tagging allows for the labelling (or filtering) of objects using words that label, categorise or group similar items, using a taxonomy defined outside this schema. For example, an email could be tagged with tags like 'internal', 'spam', 'external', 'rich-content', etc.
   MetaDataTagsComplexType tags = 10;
   // The state of the virtual session at the time of the event.
-  VirtualSessionSessionStateSimpleType session_state = 11;
+  VirtualSessionSessionStateSimpleType session_state = 11 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // Any other event data that does not fit into a schema element but may be useful for the purpose of audit.
   repeated DataComplexType data = 12 [
     (buf.validate.field).repeated = {
@@ -68,13 +72,23 @@ message VirtualSessionComplexType {
       // The permission attributes that have been explicitly allowed.
       repeated PermissionAttributeSimpleType allow = 11 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
       // The permission attributes that have been explicitly denied.
       repeated PermissionAttributeSimpleType deny = 12 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
     }

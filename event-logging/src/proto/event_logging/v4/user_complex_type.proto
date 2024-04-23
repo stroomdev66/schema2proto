@@ -65,13 +65,23 @@ message GroupComplexType {
       // The permission attributes that have been explicitly allowed.
       repeated PermissionAttributeSimpleType allow = 11 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
       // The permission attributes that have been explicitly denied.
       repeated PermissionAttributeSimpleType deny = 12 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
     }
@@ -115,10 +125,7 @@ message UserComplexType {
   // The security domain that the user exists within, e.g. an Active Directory or OpenLDAP domain.
   string domain = 11;
   // The email address of the user.
-  string email_address = 12 [
-    (buf.validate.field).string = {
-    }
-  ];
+  string email_address = 12;
   // The details of the person represented by the user account or identity.
   UserDetailsComplexType user_details = 13;
   // Any other event data that does not fit into a schema element but may be useful for the purpose of audit.
@@ -150,13 +157,23 @@ message UserComplexType {
       // The permission attributes that have been explicitly allowed.
       repeated PermissionAttributeSimpleType allow = 11 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
       // The permission attributes that have been explicitly denied.
       repeated PermissionAttributeSimpleType deny = 12 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
     }

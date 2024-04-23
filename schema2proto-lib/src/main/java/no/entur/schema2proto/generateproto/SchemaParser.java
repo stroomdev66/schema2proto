@@ -38,6 +38,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 import javax.xml.parsers.SAXParserFactory;
 
@@ -334,7 +335,31 @@ public class SchemaParser implements ErrorHandler {
 
 				if (type.isSimpleType()) {
 
+					List<OptionElement> typeRule = ruleFactory.getValidationRule(type.asSimpleType());
+					boolean merged = false;
+					if (!typeRule.isEmpty() && !fieldOptions.getOptionElements().isEmpty()) {
+						for (final OptionElement optionElement : fieldOptions.getOptionElements()) {
+							if (optionElement.getName().endsWith(".repeated")) {
+								if (optionElement.getValue() instanceof Map) {
+									Map map = (Map) optionElement.getValue();
+
+									Map child = typeRule.stream().map(e -> (OptionElement) e.getValue()).collect(Collectors.toMap(OptionElement::getName, OptionElement::getValue));
+
+									map.put("items", child);
+									merged = true;
+								}
+							}
+						}
+					} else {
+						if (!merged) {
+							typeRule.addAll(fieldOptions.getOptionElements());
+						}
+						fieldOptions = new Options(Options.FIELD_OPTIONS, typeRule);
+					}
+
 					if (type.asSimpleType().isRestriction() && type.asSimpleType().getFacet(XSFacet.FACET_ENUMERATION) != null) {
+
+
 						String enumName = createEnum(currElementDecl.getName(), type.asSimpleType().asRestriction(), type.isGlobal() ? null : messageType);
 						Field field = new Field(packageName, fieldLocation, label, currElementDecl.getName(), fieldDoc, messageType.getNextFieldNum(), enumName,
 								fieldOptions, true);
@@ -342,11 +367,6 @@ public class SchemaParser implements ErrorHandler {
 					} else {
 
 
-
-
-						List<OptionElement> typeRule = ruleFactory.getValidationRule(type.asSimpleType());
-						typeRule.addAll(fieldOptions.getOptionElements());
-						fieldOptions = new Options(Options.FIELD_OPTIONS, typeRule);
 
 
 

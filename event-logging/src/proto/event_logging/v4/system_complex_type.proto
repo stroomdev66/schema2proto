@@ -32,8 +32,6 @@ message SystemComplexType {
   message TagsType {
     // A categorisation tag or label, e.g. 'critical-system', 'operational-data', 'non-operational-test-data', etc.
     repeated string tag = 1 [
-      (buf.validate.field).string = {
-      },
       (buf.validate.field).repeated = {
         min_items: 1
       }

@@ -17,7 +17,11 @@ message AuthenticateComplexType {
     (buf.validate.field).required = true
   ];
   // This indicates the type of logon. For example, Microsoft Windows has several logon types such as Interactive (logon to domain), RemoteInteractive (logon to remote machine), CachedInteractive (logon to local machine using cached domain information due to loss of network).
-  AuthenticateLogonTypeSimpleType logon_type = 2;
+  AuthenticateLogonTypeSimpleType logon_type = 2 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // The user who the authentication action relates to.
   UserComplexType user = 3 [
     (buf.validate.field).required = true

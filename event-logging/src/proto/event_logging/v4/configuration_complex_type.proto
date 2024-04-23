@@ -65,13 +65,23 @@ message ConfigurationComplexType {
       // The permission attributes that have been explicitly allowed.
       repeated PermissionAttributeSimpleType allow = 11 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
       // The permission attributes that have been explicitly denied.
       repeated PermissionAttributeSimpleType deny = 12 [
         (buf.validate.field).repeated = {
-          min_items: 0
+          min_items: 0,
+          items: {
+            enum: {
+              defined_only: true
+            }
+          }
         }
       ];
     }

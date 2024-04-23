@@ -20,9 +20,17 @@ message AlertComplexType {
     (buf.validate.field).required = true
   ];
   // The severity of the alert.
-  AlertSeveritySimpleType severity = 2;
+  AlertSeveritySimpleType severity = 2 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // The priority of the alert.
-  AlertPrioritySimpleType priority = 3;
+  AlertPrioritySimpleType priority = 3 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // The name of the event or rule that fired or vulnerability or malware that has been scanned for or found.
   string subject = 4;
   // The descriptive message for the alert.

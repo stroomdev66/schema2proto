@@ -14,7 +14,11 @@ message NetworkLocationComplexType {
   // The application being used by the source or destination.
   string application = 2;
   // The transport protocol being used by the source or destination.
-  NetworkProtocolSimpleType transport_protocol = 3;
+  NetworkProtocolSimpleType transport_protocol = 3 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // The Internet Control Message Protocol type number. See https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml
   int32 icmp_type = 4;
   // The HTTP method, e.g. GET, POST, DELETE, PUT etc

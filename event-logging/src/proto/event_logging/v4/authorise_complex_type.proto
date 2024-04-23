@@ -30,7 +30,11 @@ message AuthoriseComplexType {
     }
   ];
   // The type of the event action, e.g. a modification to authorisation rules/groups or the request to be authorised.
-  AuthorisationSimpleType action = 11;
+  AuthorisationSimpleType action = 11 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // A list of roles or permissions that have been added to an object.
   AddGroupsType add_groups = 12;
   // A list of roles or permissions that have been removed from an object.

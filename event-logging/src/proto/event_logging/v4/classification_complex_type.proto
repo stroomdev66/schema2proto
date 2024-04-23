@@ -52,11 +52,13 @@ message ClassificationComplexType {
   message PermittedNationalitiesType {
     // An ISO 3166 alpha-3 trigraph for a nationality permitted to view this protectively marked item. E.g. 'GBR'.
     repeated string nationality = 1 [
-      (buf.validate.field).string = {
-        pattern: "([A-Z]{3})"
-      },
       (buf.validate.field).repeated = {
-        min_items: 1
+        min_items: 1,
+        items: {
+          string: {
+            pattern: "([A-Z]{3})"
+          }
+        }
       }
     ];
   }

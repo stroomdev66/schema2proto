@@ -56,7 +56,11 @@ message PrintComplexType {
     // The paper size, e.g. A4.
     string paper_size = 1;
     // The paper orientation, e.g. Portrait, Landscape.
-    PrintSettingsOrientationSimpleType orientation = 2;
+    PrintSettingsOrientationSimpleType orientation = 2 [
+      (buf.validate.field).enum = {
+        defined_only: true
+      }
+    ];
     // True if printing in colour. Most printing is performed in black and white so this defaults to false and can therefore be omitted if printing in black and white.
     bool colour = 3;
     // True if fonts are to be used on the printing device. Using device fonts reduces the size of the print job as no font information needs to be supplied to the printer. However, using device fonts will result in different output on different printers. Most print jobs will not use device fonts so this defaults to false and can therefore be omitted if device fonts are not being used.

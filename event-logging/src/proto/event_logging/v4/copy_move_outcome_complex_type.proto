@@ -17,7 +17,11 @@ message CopyMoveOutcomeComplexType {
   // Human readable text that describes the outcome.
   string description = 4;
   // Used to explain the reason for failure, e.g. Device full.
-  CopyMoveOutcomeReasonSimpleType reason = 5;
+  CopyMoveOutcomeReasonSimpleType reason = 5 [
+    (buf.validate.field).enum = {
+      defined_only: true
+    }
+  ];
   // Any other event data that does not fit into a schema element but may be useful for the purpose of audit.
   repeated DataComplexType data = 6 [
     (buf.validate.field).repeated = {

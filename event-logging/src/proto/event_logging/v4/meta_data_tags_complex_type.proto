@@ -8,8 +8,6 @@ import "buf/validate/validate.proto";
 message MetaDataTagsComplexType {
   // A categorisation tag or label
   repeated string tag = 1 [
-    (buf.validate.field).string = {
-    },
     (buf.validate.field).repeated = {
       min_items: 1
     }
