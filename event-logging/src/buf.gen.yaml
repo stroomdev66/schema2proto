@@ -7,7 +7,7 @@ managed:
       - buf.build/googleapis/googleapis
       - buf.build/bufbuild/protovalidate
   java_package_prefix:
-    default: "event-logging.v4"
+    default: "uk.gov.gchq"
     except:
       - buf.build/googleapis/googleapis
       - buf.build/bufbuild/protovalidate
